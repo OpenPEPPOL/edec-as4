@@ -1,0 +1,11 @@
+= CEF AS4 Profile Discussion Paper
+OpenPEPPOL AISBL
+v0.1.0
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 2
+:source-highlighter: coderay
+:source-language: xml
+:sectanchors:
+:sectnums:
