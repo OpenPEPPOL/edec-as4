@@ -1,0 +1,11 @@
+= Use of default MPC
+
+[cols="1,2", options="header"]
+.Changed P-modes for OpenPEPPOL
+|===
+| Processing Mode Parameter
+| Value in the eDelivery Common Profile
+
+| PMode[].BusinessInfo.MPC
+| Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultMPC`
+|===

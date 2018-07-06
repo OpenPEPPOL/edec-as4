@@ -1,0 +1,5 @@
+= Agreement
+
+_Related to CEF eDelivery AS4 3.2.2._
+
+Value of *eb:AgreementRef* is a fixed value in OpenPEPPOL.

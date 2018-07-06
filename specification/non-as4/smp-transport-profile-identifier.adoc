@@ -1,0 +1,5 @@
+= SMP transport profile identifier
+
+_Related to CEF eDelivery AS4 4.4._
+
+Receiving Access Points MUST ensure that they have configured one or more P-Modes so they can receive messages for all combinations of document type and process (including scheme) identifiers referenced by AS4 endpoints (i.e. _transportProfile_ attribute has value `peppol-transport-as4-v1_0`) that they have registered in the SMP. Note that an Access Point MAY use a "generic" P-Mode to receive the registered business documents. Such a generic P-Mode only defines the parameters related to the Access Point itself but no business document specific ones.
