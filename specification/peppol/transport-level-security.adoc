@@ -1,0 +1,9 @@
+= Configuration of Transport Level Security (TLS)
+
+_Related to CEF eDelivery AS4 3.2.6 and 3.4.5._
+
+Access points part of the PEPPOL network does not exchange information related to IPs and ports upfront of transmitting messages.
+
+Receiving access points MUST configure TLS on port *443*. Sending access points need only to allow outbound transmissions using port *443*.
+
+TLS MUST use a valid certificate issued by a trusted issuing agency. Issuing agency MUST be trusted by Oracle (Java), Mozilla and Windows (.NET).

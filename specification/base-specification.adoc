@@ -1,0 +1,24 @@
+= Base Specification
+
+_Related to CEF eDelivery AS4 2.1._
+
+[cols="1,2", options="header"]
+.Changed functionality for OpenPEPPOL
+|===
+| Functionality
+| ebMS 3.0 AS4
+
+| Exchange Patterns
+| One Way
+
+| Exchange Pattern Bindings
+| Push
+
+| Message Correlation
+| ebMS 3.0 "ConversationId"
+|===
+
+
+== Notation
+
+The key words MUST, MUST NOT, REQUIRED, SHALL, SHALL NOT, SHOULD, SHOULD NOT, RECOMMENDED, MAY, and OPTIONAL in this specification are to be interpreted as described in [RFC2119].

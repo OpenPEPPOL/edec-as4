@@ -1,0 +1,43 @@
+= Implementation in OpenPEPPOL
+
+:leveloffset: +1
+
+include::exchange-patterns.adoc[]
+
+include::message-correlation.adoc[]
+
+include::transport-level-security.adoc[]
+
+include::agreement.adoc[]
+
+include::error-handling.adoc[]
+
+include::party-identification.adoc[]
+
+include::service-action-role.adoc[]
+
+include::peppol-pki.adoc[]
+
+include::mpc.adoc[]
+
+include::sbdh.adoc[]
+
+
+= Message packaging
+
+_Related to CEF eDelivery AS4 3.4.6._
+
+As defined in section 5 of [ebMS3CORE] the payloads of an ebMS User Message may be contained in either the SOAP Body or separate MIME attachments. Since this profile however uses the AS4 Compression Feature (see below) which applies only to payloads packaged in attachments the Access Point MUST include all payloads as MIME attachments.
+
+NOTE: When sending large messages an Access Point MAY use the http chunked transfer encoding to enable more streamlined processing. As specified in section 4.1 of [RFC7230] Access Points MUST support this encoding when receiving messages.
+
+The "Content-Disposition" MIME header as described in section 5.1.9 of [AS4-Profile] SHALL NOT be used to exchange the filename of an attached payload. If the exchanged business document consists of multiple parts that need to be identifiable to enable cross referencing between parts a _Part Property_ with name _PartId_ MUST be used (see also issue 52 registered with the OASIS ebMS TC). The actual identifier must be provided by the application that composes the multi-part business document.
+
+NOTE: This does not imply that an Access Point cannot include this header in the MIME message, but only that it should not be used to identify the payload and a receiving Access Point MAY ignore the header.
+
+
+= Test Service
+
+_Related to CEF eDelivery AS4 3.2.4 and 3.4.3._
+
+:leveloffset: -1

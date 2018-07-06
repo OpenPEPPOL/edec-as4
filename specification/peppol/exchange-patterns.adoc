@@ -1,0 +1,15 @@
+= Exchange Patterns
+
+_Related to CEF eDelivery AS4 3.2.1._
+
+== One-Way/Push
+
+== One-Way/Pull
+
+One-Way/Pull is not required by CEF, and OpenPEPPOL MUST NOT use One-Way/Pull.
+
+== Two-Way/Push-and-Push
+
+== Two-Way/Sync
+
+Due to asynconius transmission in OpenPEPPOL is Two-Way/Sync not used.

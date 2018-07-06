@@ -1,0 +1,9 @@
+= Non-AS4 related aspects
+
+:leveloffset: +1
+
+include::capability-lookup.adoc[]
+
+include::smp-transport-profile-identifier.adoc[]
+
+:leveloffset: -1

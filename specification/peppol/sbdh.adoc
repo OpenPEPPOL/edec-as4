@@ -1,0 +1,9 @@
+= Use of SBDH
+
+_Related to CEF eDelivery AS4 4.2._
+
+Use of SBDH is MANDATORY in OpenPEPPOL.
+
+Use of standalone SBDH is not suppored in OpenPEPPOL.
+
+Use of *sh:Manifest* is not supported in OpenPEPPOL.

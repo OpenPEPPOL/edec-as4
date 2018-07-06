@@ -1,0 +1,5 @@
+= Message Correlation
+
+_Related to CEF eDelivery AS4 3.2.2 and 3.4.2._
+
+*eb:RefToMessageId* is out of scope for OpenPEPPOL.

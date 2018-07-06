@@ -1,0 +1,16 @@
+= Use of PEPPOL PKI
+
+_Related to CEF eDelivery AS4 3.2.6 and 3.4.5._
+
+[cols="1,2", options="header"]
+.P-Modes for OpenPEPPOL
+|===
+| P-Mode
+| Value
+
+| PMode[].Security.X509.Signature.Certificate
+| PEPPOL certificate of sending AP.
+
+| PMode[].Security.X509.Encryption.Certificate
+| PEPPOL certificate of receiving AP fetched from SMP.
+|===

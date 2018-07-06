@@ -1,0 +1,52 @@
+= P-Mode Parameters
+
+_Related to CEF eDelivery AS4 3.5._
+
+[cols="1,2", options="header"]
+.Changed P-modes for OpenPEPPOL
+|===
+| Processing Mode Parameter
+| Value in the eDelivery Common Profile
+
+| PMode.Agreement
+| Fixed value: `urn:fdc:peppol.eu:2017:agreements:tia:ap_provider`
+
+| PMode.MEP
+| Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/oneWay`
+
+| PMode.MEPBinding
+| Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/push`
+
+| PMode.Initiator.Party
+| Please see link:#_3_4_1[3.4.1]
+
+| PMode.Initiator.Party.type
+| Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
+
+| PMode.Initiator.Role
+| Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
+
+| PMode.Responder.Party
+| Please see link:#_3_4_1[3.4.1]
+
+| PMode.Responder.Party.type
+| Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
+
+| PMode.Responder.Role
+| Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
+
+| PMode[].BusinessInfo.Service
+| Please see link:#_3_4_4[3.4.4]
+
+| PMode[].BusinessInfo.Service.type
+| Fixed value: `urn:fdc:peppol.eu:2017:identifiers:proc-id`
+
+| PMode[].BusinessInfo.Action
+| Please see link:#_3_4_4[3.4.4]
+
+| PMode[].BusinessInfo.MPC
+| Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultMPC`
+
+| PMode[].ErrorHandling.Report.ProcessErrorNotifyProducer
+| Fixed value: `true`
+|===
