@@ -1,6 +1,6 @@
 = Configuration of Transport Level Security (TLS)
 
-_Related to CEF eDelivery AS4 3.2.6 and 3.4.5._
+_Related to CEF eDelivery AS4 link:{base}Security[3.2.6] and link:{base}Security.1[3.4.5]._
 
 Access points part of the PEPPOL network does not exchange information related to IPs and ports upfront of transmitting messages.
 
