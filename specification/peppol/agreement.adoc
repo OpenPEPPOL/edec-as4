@@ -2,4 +2,4 @@
 
 _Related to CEF eDelivery AS4 3.2.2._
 
-Value of *eb:AgreementRef* is a fixed value in OpenPEPPOL.
+Value of *eb:AgreementRef* is a fixed value in OpenPEPPOL footnote:[We must state in this document which is the one we MUST use in OpenPEPPOL].

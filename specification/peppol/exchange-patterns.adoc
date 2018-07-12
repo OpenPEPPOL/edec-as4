@@ -6,10 +6,10 @@ _Related to CEF eDelivery AS4 3.2.1._
 
 == One-Way/Pull
 
-One-Way/Pull is not required by CEF, and OpenPEPPOL MUST NOT use One-Way/Pull.
+One-Way/Pull is an optopnal MEP of the CEF eDelivery.  OpenPEPPOL has no requirements that are covered by the specific MEP and thus the One-Way/Pull MEP MUST NOT be used. footnote:[Should we use MUST and SHOULD in these profile restrictions? This is something that is not required and the OpenPEPPOL transimission patterns are not using it, so using wording like "Is not required and thus is not used in OpenPEPPOL" should suffice]
 
 == Two-Way/Push-and-Push
 
 == Two-Way/Sync
 
-Due to asynconius transmission in OpenPEPPOL is Two-Way/Sync not used.
+Two-Way/Sync is an optional MEP of the CEF eDelivery. Due to asyncronous transmission in OpenPEPPOL, the Two-Way/Sync MEP is excluded and MUST NOT be used. 
