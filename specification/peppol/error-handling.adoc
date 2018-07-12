@@ -14,6 +14,6 @@ _Related to CEF eDelivery AS4 3.2.5._
 
 == Feedback when receiver is not serviced
 
-When receiving a business document the Access Point will need to check whether it services the addressed participant to be able to deliver the message. When a MSH allows to execute custom validations of the content of a User Message during the ebMS message processing, it is RECOMMENDED that the Access Point includes the check on the addressee and generates and sends back an ebMS Error in case the addressed participant is not serviced by the Access Point.
+When an Access Point receives a business document, it SHOULD check whether it services the addressed participant in order to be able to deliver the message. If a MSH is able to execute custom validations of the payload of a User Message during the ebMS message processing, it is RECOMMENDED that the Access Point includes the check on the addressee. In case the addressed participant is not serviced by the Access Points, it MUST generate and send back an ebMS Error.
 
 The _errorCode_ attribute of the generated _Error_ MUST be set to `EBMS:0004` (Other error) and its severity attribute MUST be set to _failure_. Furthermore the _errorDetail_ attribute MUST have value `PEPPOL:NOT_SERVICED` to indicate that the addressed participant is not serviced by the Access Point.
