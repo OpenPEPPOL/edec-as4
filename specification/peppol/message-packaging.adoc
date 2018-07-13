@@ -2,7 +2,7 @@
 
 _Related to CEF eDelivery AS4 3.4.6._
 
-As defined in section 5 of [ebMS3CORE] the payloads of an ebMS User Message may be contained in either the SOAP Body or separate MIME attachments. Since this profile however uses the AS4 Compression Feature (see below) which applies only to payloads packaged in attachments the Access Point MUST include all payloads as MIME attachments.
+As defined in section 5 of link:#ref_ebMS3CORE[[ebMS3CORE\]] the payloads of an ebMS User Message may be contained in either the SOAP Body or separate MIME attachments. Since this profile however uses the AS4 Compression Feature (see below) which applies only to payloads packaged in attachments the Access Point MUST include all payloads as MIME attachments.
 
 NOTE: When sending large messages an Access Point MAY use the http chunked transfer encoding to enable more streamlined processing. As specified in section 4.1 of [RFC7230] Access Points MUST support this encoding when receiving messages.
 

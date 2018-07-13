@@ -1,6 +1,6 @@
 = P-Mode Parameters
 
-_Related to CEF eDelivery AS4 3.5._
+_Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 
 [cols="1,2", options="header"]
 .Changed P-modes for OpenPEPPOL
@@ -18,7 +18,7 @@ _Related to CEF eDelivery AS4 3.5._
 | Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/push`
 
 | PMode.Initiator.Party
-| Please see link:#_3_4_1[3.4.1]
+| Please see link:#_party_identification[Party Identification]
 
 | PMode.Initiator.Party.type
 | Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
@@ -27,7 +27,7 @@ _Related to CEF eDelivery AS4 3.5._
 | Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
 
 | PMode.Responder.Party
-| Please see link:#_3_4_1[3.4.1]
+| Please see link:#_party_identification[Party Identification]
 
 | PMode.Responder.Party.type
 | Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
@@ -36,13 +36,13 @@ _Related to CEF eDelivery AS4 3.5._
 | Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
 
 | PMode[].BusinessInfo.Service
-| Please see link:#_3_4_4[3.4.4]
+| Please see link:#_service_action_and_role[Service, Action and Role]
 
 | PMode[].BusinessInfo.Service.type
 | Fixed value: `urn:fdc:peppol.eu:2017:identifiers:proc-id`
 
 | PMode[].BusinessInfo.Action
-| Please see link:#_3_4_4[3.4.4]
+| Please see link:#_service_action_and_role[Service, Action and Role]
 
 | PMode[].BusinessInfo.MPC
 | Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultMPC`
