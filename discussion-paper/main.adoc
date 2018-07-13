@@ -11,20 +11,43 @@ v0.1.0
 :leveloffset: +1
 
 
-This document outlines some
+This document outlines some discussion points for OpenPEPPOL related to CEF eDelivery AS4.
+
 
 = Test Service
 
+The Test Service functionality described in the specification is highly interesting, however it is not clear how it is supposed to work in the Four Corner Topology where a participant may be serviced by multiple access points.
+
+
 = Exchange of IP-addresses
 
-In 3.4.5 is it outlined a set of requirements related to exchange of IP addresses for use for communication.
+In 3.4.5 is it outlined a set of requirements related to exchange of IP addresses for use for communication. In a network like PEPPOL will exchange as proposed result in a overhead not needed. The added security of exchanging this information is neglectable as long as initiation of a list for PEPPOL would result in whitelisting of all IPs of all the big cloud vendors.
+
+To accomodate fast adoption of new providers in the network, and to make access points uniform to each other, may requiring a certain amount of uniformity be what is needed. Our proprosal as an alternative to exchange of IP addresses and ports are the following:
+
+* Receiving access points MUST configure TLS on port *443*.
+* Sending access points need only to allow outbound transmissions using port *443*.
 
 
-= IPv4 and IPv6
+// = IPv4 and IPv6
 
-* 3.2.8: "Conformant implementations MUST support IPv4 and IPv6 networking."
-* 3.4.8: "This eDelivery AS4 profile *MAY* be deployed on IPv4 and/or IPv6 networking. "
+// * 3.2.8: "Conformant implementations MUST support IPv4 and IPv6 networking."
+// * 3.4.8: "This eDelivery AS4 profile *MAY* be deployed on IPv4 and/or IPv6 networking. "
+
 
 = Not serviced
 
-= Push-Push
+In some situations may the SMP not reflect the actual access point supposed to handle documents on behalf of a user (latency in updates), the access point may use caching (normal caching, caching of DNS) or simply access points may have mixed up how to do lookup.
+
+In all of the mentioned situations is it beneficial for the receiving access point to provide a notification stating what happend in a structured manner.
+
+OpenPEPPOL provides in its AS4 specification a way forward for structured exchange when messages in a Four Corner Topology are received by wrong access point. This is a error currently not part of OASIS AS4 as AS4 is focussed on point-to-point communication and not for use in a Four Corner Topoloy. Enhancing the CEF specification in this matter may give added value for other domains than OpenPEPPOL.
+
+
+= Two-Way MEPS
+
+In the OASIS AS4 Profile are two-way MEPs optional, resulting in AS4 implementations being valid AS4 implementations according to the official standard not being recognized as proper AS4 implementation according to the CEF specification.
+
+We see in the PEPPOL network no need for Two-Way MEPs since our pattern of use is asynchronous. Also this may be a blocker for growth in the AS4 marked, resulting in slower uptake for valid AS4 implementations in domains not needing more advanced feature.
+
+Based on this is the recommandation to make Two-Way MEPs optional in the CEF specification to accomodate domains having lower requirements to AS4 in the transportation layer.
