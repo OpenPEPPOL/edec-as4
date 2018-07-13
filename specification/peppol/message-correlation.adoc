@@ -1,5 +1,5 @@
 = Message Correlation
 
-_Related to CEF eDelivery AS4 3.2.2 and 3.4.2._
+_Related to CEF eDelivery AS4 link:{base}AS4MessageStructureandUserMessage[3.2.2] and link:{base}Correlation[3.4.2]._
 
 *eb:RefToMessageId* is out of scope for OpenPEPPOL. footnote:[this is a controverial statement since this is what differenciates One-way/Push from Two-way/Push-and-Push. maybe the wording needs some revising].

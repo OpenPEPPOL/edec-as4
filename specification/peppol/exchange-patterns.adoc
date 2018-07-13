@@ -1,6 +1,6 @@
 = Exchange Patterns
 
-_Related to CEF eDelivery AS4 3.2.1._
+_Related to CEF eDelivery AS4 link:{base}MessageExchangePatterns[3.2.1]._
 
 == One-Way/Push
 

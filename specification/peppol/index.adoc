@@ -24,6 +24,6 @@ include::sbdh.adoc[]
 
 include::message-packaging.adoc[]
 
-include::test-service.adoc[]
+// include::test-service.adoc[]
 
 :leveloffset: -1

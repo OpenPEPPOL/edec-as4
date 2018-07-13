@@ -1,6 +1,6 @@
 = Error Handling
 
-_Related to CEF eDelivery AS4 3.2.5._
+_Related to CEF eDelivery AS4 link:{base}ErrorHandling[3.2.5]._
 
 [cols="1,2", options="header"]
 .P-Modes for OpenPEPPOL
@@ -16,4 +16,4 @@ _Related to CEF eDelivery AS4 3.2.5._
 
 When an Access Point receives a business document, it SHOULD check whether it services the addressed participant in order to be able to deliver the message. If a MSH is able to execute custom validations of the payload of a User Message during the ebMS message processing, it is RECOMMENDED that the Access Point includes the check on the addressee. In case the addressed participant is not serviced by the Access Points, it MUST generate and send back an ebMS Error.
 
-The _errorCode_ attribute of the generated _Error_ MUST be set to `EBMS:0004` (Other error) and its severity attribute MUST be set to _failure_. Furthermore the _errorDetail_ attribute MUST have value `PEPPOL:NOT_SERVICED` to indicate that the addressed participant is not serviced by the Access Point.
+The `errorCode` attribute of the generated `Error` MUST be set to `EBMS:0004` (Other error) and its severity attribute MUST be set to `failure`. Furthermore the `errorDetail` attribute MUST have value `PEPPOL:NOT_SERVICED` to indicate that the addressed participant is not serviced by the Access Point.
