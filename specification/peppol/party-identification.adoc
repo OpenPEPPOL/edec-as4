@@ -16,4 +16,4 @@ Fixed value for PartyId.type: `urn:fdc:peppol.eu:2017:identifiers:ap`
 | Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
 |===
 
-Use of *trackingIdentifier* is not specified by OpenPEPPOL and MUST NOT be used.
+Use of *trackingIdentifier* is not specified by OpenPEPPOL and MUST NOT be used. footnote:[Should we add the way we use the original sender and the final recipient message property here, which refers to C1 and C4 (SMP) identifiers?]

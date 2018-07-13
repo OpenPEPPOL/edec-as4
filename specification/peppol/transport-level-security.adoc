@@ -2,8 +2,8 @@
 
 _Related to CEF eDelivery AS4 link:{base}Security[3.2.6] and link:{base}Security.1[3.4.5]._
 
-Access points part of the PEPPOL network does not exchange information related to IPs and ports upfront of transmitting messages.
+Access Points that are part of the PEPPOL network do not exchange information related to IPs and portsfootnote:[maybe remove the ports as we are actually defining ports in second paragraph] upfront of transmitting messages. 
 
 Receiving access points MUST configure TLS on port *443*. Sending access points need only to allow outbound transmissions using port *443*.
 
-TLS MUST use a valid certificate issued by a trusted issuing agency. Issuing agency MUST be trusted by Oracle (Java), Mozilla and Windows (.NET).
+TLS MUST use a valid certificate issued by a trusted issuing agency. The issuing agency MUST be trusted by Oracle (Java), Mozilla and Windows (.NET).
