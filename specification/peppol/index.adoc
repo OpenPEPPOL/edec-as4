@@ -4,13 +4,11 @@
 
 include::exchange-patterns.adoc[]
 
-include::message-correlation.adoc[]
-
 include::transport-level-security.adoc[]
 
 include::agreement.adoc[]
 
-include::error-handling.adoc[]
+include::not-serviced.adoc[]
 
 include::party-identification.adoc[]
 

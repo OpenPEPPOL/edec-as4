@@ -12,12 +12,18 @@ When sending the business document the Access Point MUST set *PMode[1].BusinessI
 
 | PMode[1].BusinessInfo.Service
 | The PEPPOL Process identifier of the business document formatted as follows: «scheme id»::«process id value» +
-Example: `cenbii-procid-ubl::urn:www.cenbii.eu:profile:bii01:ver2.0`
+
+Example: +
+`cenbii-procid-ubl::urn:www.cenbii.eu:profile:bii01:ver2.0`
 
 | PMode[1].BusinessInfo.Service.type
 | Fixed value: `urn:fdc:peppol.eu:2017:identifiers:proc-id`
 
 | PMode[1].BusinessInfo.Action
 | The encoded PEPPOL Document type identifier of the business document, as registered in the SMP: //DocumentIdentifier +
-Example: `busdox-docid-qns::urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol5a:ver2.0::2.1`
+
+Example: +
+`busdox-docid-qns::urn:oasis:names:specification:ubl:schema:
+xsd:Invoice-2::Invoice##urn:www.cenbii.eu:transaction:biitrns010:
+ver2.0:extended:urn:www.peppol.eu:bis:peppol5a:ver2.0::2.1`
 |===

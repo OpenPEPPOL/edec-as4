@@ -5,8 +5,6 @@ v0.1.0
 :icons: font
 :toc: left
 :toclevels: 2
-:source-highlighter: coderay
-:source-language: xml
 :sectanchors:
 :sectnums:
 

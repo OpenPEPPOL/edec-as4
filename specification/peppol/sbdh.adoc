@@ -2,8 +2,7 @@
 
 _Related to CEF eDelivery AS4 4.2._
 
-Use of SBDH is MANDATORY in OpenPEPPOL.
+All transmission in the PEPPOL network MUST use SBDH according to PEPPOL Envelope Specification.
+Standalone SBDH as described by CEF eDelivery AS4 is not supported and MUST NOT be used.
 
-Use of standalone SBDH is not suppored in OpenPEPPOL.
-
-Use of *sh:Manifest* is not supported in OpenPEPPOL.
+The SBDH containing a business message MUST be found in the first MIME attachement after the MIME attachment containing the AS4 header.
