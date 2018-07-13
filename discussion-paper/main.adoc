@@ -9,3 +9,24 @@ v0.1.0
 :source-language: xml
 :sectanchors:
 :sectnums:
+
+:leveloffset: +1
+
+
+This document outlines some
+
+= Test Service
+
+= Exchange of IP-addresses
+
+In 3.4.5 is it outlined a set of requirements related to exchange of IP addresses for use for communication.
+
+
+= IPv4 and IPv6
+
+* 3.2.8: "Conformant implementations MUST support IPv4 and IPv6 networking."
+* 3.4.8: "This eDelivery AS4 profile *MAY* be deployed on IPv4 and/or IPv6 networking. "
+
+= Not serviced
+
+= Push-Push
