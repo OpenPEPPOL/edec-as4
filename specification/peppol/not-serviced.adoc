@@ -1,18 +1,4 @@
-= Error Handling
-
-_Related to CEF eDelivery AS4 link:{base}ErrorHandling[3.2.5]._
-
-[cols="1,2", options="header"]
-.P-Modes for OpenPEPPOL
-|===
-| P-Mode
-| Value
-
-| PMode[].ErrorHandling.Report.ProcessErrorNotifyProducer
-| Fixed value: `true`
-|===
-
-== Feedback when receiver is not serviced
+= Feedback when receiver is not serviced
 
 When an Access Point receives a business document, it SHOULD check whether it services the addressed participant in order to be able to deliver the message. If a MSH is able to execute custom validations of the payload of a User Message during the ebMS message processing, it is RECOMMENDED that the Access Point includes the check on the addressee. In case the addressed participant is not serviced by the Access Points, it MUST generate and send back an ebMS Error.
 

@@ -1,15 +1,11 @@
 = Exchange Patterns
 
-_Related to CEF eDelivery AS4 link:{base}MessageExchangePatterns[3.2.1]._
+_Related to CEF eDelivery AS4 link:{base}MessageExchangePatterns[3.2.1], link:{base}AS4MessageStructureandUserMessage[3.2.2] and link:{base}Correlation[3.4.2]._
 
-== One-Way/Push
+*One-Way/Push* is the only exchange pattern currently suppored by OpenPEPPOL and MUST be used for all transmissions in the PEPPOL network.
 
-== One-Way/Pull
+*One-Way/Pull* is an optinal MEP of the CEF eDelivery. OpenPEPPOL has no requirements that are covered by the specific MEP and thus the One-Way/Pull MEP SHALL NOT be used.
 
-One-Way/Pull is an optopnal MEP of the CEF eDelivery.  OpenPEPPOL has no requirements that are covered by the specific MEP and thus the One-Way/Pull MEP MUST NOT be used. footnote:[Should we use MUST and SHOULD in these profile restrictions? This is something that is not required and the OpenPEPPOL transimission patterns are not using it, so using wording like "Is not required and thus is not used in OpenPEPPOL" should suffice]
+*Two-Way/Push-and-Push* is mandatory to support according to the CEF eDelivery AS4, however it SHALL NOT be used in the PEPPOL network. (This results in *eb:RefToMessageId* not being used.)
 
-== Two-Way/Push-and-Push
-
-== Two-Way/Sync
-
-Two-Way/Sync is an optional MEP of the CEF eDelivery. Due to asyncronous transmission in OpenPEPPOL, the Two-Way/Sync MEP is excluded and MUST NOT be used. 
+*Two-Way/Sync* is, due to asyncronous transmission in OpenPEPPOL, excluded and SHALL NOT be used in the PEPPOL network.

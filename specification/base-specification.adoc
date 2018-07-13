@@ -9,7 +9,7 @@ _Related to CEF eDelivery AS4 link:{base}Features[2.1]._
 | ebMS 3.0 AS4
 
 | Exchange Patterns
-| One Wayfootnote:[however we said that the AS4 vendors MUST support also the two-way push and push, as it is a core functionality of the CEF Profile. How does this affect Table 1?]
+| One Way
 
 | Exchange Pattern Bindings
 | Push

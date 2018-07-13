@@ -1,7 +1,5 @@
 = Description
 
-This document describes aspects special footnote:[should be "specific" instead of special?] to OpenPEPPOL when implementing the link:#ref_CEF[[CEF\]] eDelivery AS4 specification for use in the PEPPOL network. footnote:[A explicit comment of what this document is and is its aim should be added here. For example we must state that PEPPOL follows the CEF eDelivery AS4 Profile v1.13 and that this document further defines and restrict features and attributes that are either not profiled in the CEF Profile, or they are optional and are not used in the PEPPOL network]
+This document descibes how to implement AS4 in the PEPPOL network. AS4 implementations must follow the link:#ref_CEF[CEF eDelivery AS4 Profile v1.13] and aspects described in this document that further defines and restrict features and attributes that are either not profiled in the CEF specification, or they are optional and are not used in the PEPPOL network.
 
-In short is use of AS4 in the PEPPOL network for transmission of asyncronous messages between corner 2 and corner 3 in a Four Corner Topology using the PEPPOL PKI for authenticationfootnote:[maybe use the following instead of the word authentication: "for signature and encryption on the message level"] and SMP/SML for discovery.
-
-//This document describes the PEPPOL AS4 profile by mirroring the link:#ref_CEF[[CEF\]] specification. Description of how the PEPPOL Network operates (exchange between C1-C2/C3-C4, lookup using Busdox SML/Busdox SMP, SBDH specification) is left out by intention.
+In short is use of AS4 in the PEPPOL network for transmission of asyncronous messages between corner 2 and corner 3 in a Four Corner Topology using the PEPPOL PKI for for signature and encryption on the message level and SMP/SML for discovery.
