@@ -1,8 +1,8 @@
 = Service, Action and Role
 
-_Related to CEF eDelivery AS4 3.4.4._
+_Related to CEF eDelivery AS4 link:{base}Service,ActionandRole[3.4.4]._
 
-When sending the business document the Access Point MUST set *PMode[1].BusinessInfo.Service to* the PEPPOL process identifier as specified in the PEPPOL BIS. The *PMode[1].BusinessInfo.Service.type* MUST be set to the fixed value `urn:fdc:peppol.eu:2017:identifiers:proc-id`. The Service value MUST be formatted as follows (similar to the generic URL formatting defined in [BUSDOX-CDF]): «scheme identifier»::«process identifier value». The values for scheme and process identifier SHALL NOT use URL percent encoding. *PMode[1].BusinessInfo.Action* MUST be set to business document’s encoded document type identifier as 284 defined in the PEPPOL BIS. The document type identifiers MUST be formatted as specified in link:ref_PEPPOL-ID-POL[[PEPPOL-ID-POL\]].
+When sending the business document the Access Point MUST set *PMode[1].BusinessInfo.Service to* the PEPPOL process identifier as specified in the PEPPOL BIS. The *PMode[1].BusinessInfo.Service.type* MUST be set to the fixed value `urn:fdc:peppol.eu:2017:identifiers:proc-id`. The Service value MUST be formatted as follows (similar to the generic URL formatting defined in link:ref_BUSDOX-CDF[[BUSDOX-CDF\]]): «scheme identifier»::«process identifier value». The values for scheme and process identifier SHALL NOT use URL percent encoding. *PMode[1].BusinessInfo.Action* MUST be set to business document’s encoded document type identifier as defined in the PEPPOL BIS. The document type identifiers MUST be formatted as specified in link:ref_PEPPOL-ID-POL[[PEPPOL-ID-POL\]].
 
 [cols="1,2", options="header"]
 .P-Modes for OpenPEPPOL
