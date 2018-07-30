@@ -2,7 +2,7 @@
 
 _Related to CEF eDelivery AS4 link:{base}AS4MessageStructureandUserMessage[3.2.2]._
 
-As the message exchange between two Access Points in the PEPPOL eDelivery Network is based on the [TIA-AP-PROV] the *PMode.Agreement* parameter which is used to indicate the business agreement that governs the message exchange MUST have value `urn:fdc:peppol.eu:2017:agreements:tia:ap_provider` without `type` attribute. The reference to the agreement is included in the `eb3:AgreementRef` element of the ebMS messaging header.
+As the message exchange between two Access Points in the PEPPOL eDelivery Network is based on the <<TIA-AP-PROV>> the *PMode.Agreement* parameter which is used to indicate the business agreement that governs the message exchange MUST have value `urn:fdc:peppol.eu:2017:agreements:tia:ap_provider` without `type` attribute. The reference to the agreement is included in the `eb3:AgreementRef` element of the ebMS messaging header.
 
 The `eb3:AgreementRef` element also includes an optional attribute `pmode` which can be used to include the *PMode.ID*. This attribute MUST NOT be used as Access Points may use just one generic P-Mode for receiving messages.
 

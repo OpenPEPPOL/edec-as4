@@ -16,4 +16,10 @@ Fixed value for PartyId.type: `urn:fdc:peppol.eu:2017:identifiers:ap`
 | Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
 |===
 
+NOTE: *From CEF:* +
+Other domains separate two separate values for the initiator for the responder, even if they have fixed values, rather than one fixed value for all cases. Some products (at least in the past) had problems if the same value is used for role in From and To.
+
 Use of *trackingIdentifier* is not specified by OpenPEPPOL and MUST NOT be used.
+
+NOTE: *From CEF:* +
+Why is there a reference to trackingIdentifier in a section on party identification?  The trackingIdentifier is an identifier to (end-to-end) track messages, not parties.

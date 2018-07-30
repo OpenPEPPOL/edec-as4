@@ -2,6 +2,10 @@
 
 _Related to CEF eDelivery AS4 link:{base}Features[2.1]._
 
+NOTE: *From CEF:* +
+The table is not very clear in what is different.
+For example, it is not straightforward for the user to understand that the difference in Message Correlation is the fact that the reftomessageid is dropped from the eDelivery requirements.
+
 [cols="1,2", options="header"]
 .Changed functionality for OpenPEPPOL
 |===
@@ -20,4 +24,4 @@ _Related to CEF eDelivery AS4 link:{base}Features[2.1]._
 
 == Notation
 
-The key words MUST, MUST NOT, REQUIRED, SHALL, SHALL NOT, SHOULD, SHOULD NOT, RECOMMENDED, MAY, and OPTIONAL in this specification are to be interpreted as described in link:#_ref[[RFC2119\]].
+The key words MUST, MUST NOT, REQUIRED, SHALL, SHALL NOT, SHOULD, SHOULD NOT, RECOMMENDED, MAY, and OPTIONAL in this specification are to be interpreted as described in <<RFC2119>>.

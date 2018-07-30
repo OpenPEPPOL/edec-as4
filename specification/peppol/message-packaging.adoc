@@ -2,8 +2,14 @@
 
 _Related to CEF eDelivery AS4 3.4.6._
 
-As defined in section 5 of link:#ref_ebMS3CORE[[ebMS3CORE\]] the payloads of an ebMS User Message may be contained in either the SOAP Body or separate MIME attachments. Since this profile however uses the AS4 Compression Feature (see below) which applies only to payloads packaged in attachments the Access Point MUST include all payloads as MIME attachments.
+As defined in section 5 of <<ebMS3CORE>> the payloads of an ebMS User Message may be contained in either the SOAP Body or separate MIME attachments. Since this profile however uses the AS4 Compression Feature (see below) which applies only to payloads packaged in attachments the Access Point MUST include all payloads as MIME attachments.
 
-NOTE: When sending large messages an Access Point MAY use the http chunked transfer encoding to enable more streamlined processing. As specified in section 4.1 of [RFC7230] Access Points MUST support this encoding when receiving messages.
+NOTE: When sending large messages an Access Point MAY use the http chunked transfer encoding to enable more streamlined processing. As specified in section 4.1 of <<RFC7230>> Access Points MUST support this encoding when receiving messages.
 
-The "Content-Disposition" MIME header as described in section 5.1.9 of [AS4-Profile] SHALL NOT be used to exchange the filename of an attached payload. AS4 implementations not supporting removal of the MIME header MUST use `payload.xml` as filename.
+The "Content-Disposition" MIME header as described in section 5.1.9 of <<AS4-Profile>> SHALL NOT be used to exchange the filename of an attached payload. AS4 implementations not supporting removal of the MIME header MUST use `payload.xml` as filename.
+
+NOTE: *From CEF:* +
+instead of stating SHALL NOT, it would be safer to indicate that this MIME header will be ignored as some products might have issues to not use it.
+
+NOTE: *From CEF:* +
+use of fixed name “payload.xml” is problematic, experience shows products may use file integration (hot folders) if so, then duplicate files with the same name can cause files to be overwritten. Better to mandate globally unique file names.

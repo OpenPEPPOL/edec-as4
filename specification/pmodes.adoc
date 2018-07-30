@@ -46,7 +46,4 @@ _Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 
 | PMode[].BusinessInfo.MPC
 | Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultMPC`
-
-| PMode[].ErrorHandling.Report.ProcessErrorNotifyProducer
-| Fixed value: `true`
 |===

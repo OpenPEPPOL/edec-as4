@@ -1,6 +1,6 @@
 = Use of default MPC
 
-The message partition channel feature as defined in link:#ref_ebMS3CORE[[ebMS3CORE\]] is not needed for the message exchanges between the Access Points in the PEPPOL eDelivery Network. Therefore the default MPC is used, i.e. *PMode[1].BusinessInfo.MPC* MUST be set to: +
+The message partition channel feature as defined in <<ebMS3CORE>> is not needed for the message exchanges between the Access Points in the PEPPOL eDelivery Network. Therefore the default MPC is used, i.e. *PMode[1].BusinessInfo.MPC* MUST be set to: +
 `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultMPC`.
 
 NOTE: Because the default MPC is used the `eb3:UserMessage/@mpc` attribute MAY be omitted in the ebMS message header.

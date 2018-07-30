@@ -2,7 +2,7 @@
 
 _Related to CEF eDelivery AS4 3.2.6 and 3.4.5._
 
-All communication in the PEPPOL network uses the PEPPOL PKI. Certificates MUST be verified upon fetching from SMP. Certificates not issued by OpenPEPPOL MUST NOT be used.
+All communication in the PEPPOL network uses the PEPPOL PKI. Certificates MUST be verified upon fetching from the SMP. Certificates not issued by OpenPEPPOL MUST NOT be used.
 
 
 [cols="1,2", options="header"]
