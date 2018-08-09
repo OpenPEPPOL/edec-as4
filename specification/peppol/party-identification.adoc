@@ -8,18 +8,32 @@ _Related to CEF eDelivery AS4 link:{base}PartyIdentification[3.4.1] and link:{ba
 | P-Mode
 | Value
 
-| PMode.[Initiator \| Responder].Party
+| PMode.Initiator.Party
 | One PartyId with value the Subject CNAME of the PEPPOL Access Point Certificate issued to the Access Point, e.g. APP_1000000100 +
 Fixed value for PartyId.type: `urn:fdc:peppol.eu:2017:identifiers:ap`
 
-| PMode.[Initiator \| Responder].Role
-| Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
+| PMode.Initiator.Role
+| Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:sender`
+
+| PMode.Responder.Party
+| One PartyId with value the Subject CNAME of the PEPPOL Access Point Certificate issued to the Access Point, e.g. APP_1000000100 +
+Fixed value for PartyId.type: `urn:fdc:peppol.eu:2017:identifiers:ap`
+
+| PMode.Responder.Role
+| Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:receiver`
 |===
 
 NOTE: *From CEF:* +
 Other domains separate two separate values for the initiator for the responder, even if they have fixed values, rather than one fixed value for all cases. Some products (at least in the past) had problems if the same value is used for role in From and To.
 
+NOTE: *From OpenPEPPOL:* +
+Separat role identifier for sender and receiver is added.
+
+
 Use of *trackingIdentifier* is not specified by OpenPEPPOL and MUST NOT be used.
 
 NOTE: *From CEF:* +
 Why is there a reference to trackingIdentifier in a section on party identification?  The trackingIdentifier is an identifier to (end-to-end) track messages, not parties.
+
+NOTE: *From OpenPEPPOL:* +
+This is a reflection upon <<CEFeDeliveryAS4>> 4.1.2. Will be moved to better suited location in this document when <<CEFeDeliveryAS4>> is updated to provide guideline in this matter.

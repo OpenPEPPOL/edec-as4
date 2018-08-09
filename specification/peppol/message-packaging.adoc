@@ -13,3 +13,6 @@ instead of stating SHALL NOT, it would be safer to indicate that this MIME heade
 
 NOTE: *From CEF:* +
 use of fixed name “payload.xml” is problematic, experience shows products may use file integration (hot folders) if so, then duplicate files with the same name can cause files to be overwritten. Better to mandate globally unique file names.
+
+NOTE: *From OpenPEPPOL:* +
+Stays for now. The `payload.xml` could be changed to `[uuid].xml`. Making sure it is not allowed to send structured filenames is very important.

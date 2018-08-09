@@ -14,3 +14,6 @@ The issuing agency MUST be trusted by Oracle (Java) and Microsoft (.NET).
 
 NOTE: *From CEF*: +
 Lists of trusted TLS CAs are not programming language specific but set by operating systems/distributions on servers (e.g. Windows, Ubuntu) or on networking equipment (e.g. Cisco IOS). Other AS4 profiles have formulated the constraint as requirements on CAs, e.g. adherence to EN 319 412-4 or the CA Browser Forum baseline requirements, in order to not have to mention specific (commercial) products.
+
+NOTE: *From OpenPEPPOL*: +
+Stays for now. Should be included in PEPPOL TIA in the long run. CEF could include the content of their comment in the CEF eDelivery AS4 specification.

@@ -6,21 +6,31 @@ NOTE: *From CEF:* +
 The table is not very clear in what is different.
 For example, it is not straightforward for the user to understand that the difference in Message Correlation is the fact that the reftomessageid is dropped from the eDelivery requirements.
 
-[cols="1,2", options="header"]
+NOTE: *From OpenPEPPOL:* +
+Added paragraph above table and included original values from CEF for comparisson. Chapter 2 is intended as an high level overview like <<CEFeDeliveryAS4>> 2.1, details related to changed functionality may be found in chapter 3.
+
+The bellow table contains a high level overview of changed features in OpenPEPPOL AS4 specification compared to table of features in <<CEFeDeliveryAS4>>.
+
+[cols="1,2,2", options="header"]
 .Changed functionality for OpenPEPPOL
 |===
 | Functionality
-| ebMS 3.0 AS4
+| OpenPEPPOL AS4
+| <<CEFeDeliveryAS4>>
 
 | Exchange Patterns
 | One Way
+| One Way or Two Way (*)
 
 | Exchange Pattern Bindings
 | Push
+| Push, Pull and Sync (*)
 
 | Message Correlation
 | ebMS 3.0 "ConversationId"
+| ebMS 3.0 "RefToMessageId" and "ConversationId"
 |===
+
 
 == Notation
 

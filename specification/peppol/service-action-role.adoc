@@ -2,7 +2,11 @@
 
 _Related to CEF eDelivery AS4 link:{base}Service,ActionandRole[3.4.4]._
 
-When sending the business document the Access Point MUST set *PMode[1].BusinessInfo.Service to* the PEPPOL process identifier as specified in the PEPPOL BIS. The *PMode[1].BusinessInfo.Service.type* MUST be set to the fixed value `urn:fdc:peppol.eu:2017:identifiers:proc-id`. The Service value MUST be formatted as follows (similar to the generic URL formatting defined in <<BUSDOX-CDF>>): «scheme identifier»::«process identifier value». The values for scheme and process identifier SHALL NOT use URL percent encoding. *PMode[1].BusinessInfo.Action* MUST be set to business document’s encoded document type identifier as defined in the PEPPOL BIS. The document type identifiers MUST be formatted as specified in <<PEPPOL-ID-POL>>.
+When sending the business document the Access Point MUST set *PMode[1].BusinessInfo.Service* to the PEPPOL process identifier as specified in the PEPPOL BIS. The *PMode[1].BusinessInfo.Service.type* MUST be set to the PEPPOL process identifier schema as specified in the PEPPOL BIS (`cenbii-procid-ubl` as default when not specified). The values for scheme and process identifier SHALL NOT use URL percent encoding.
+
+*PMode[1].BusinessInfo.Action* MUST be set to business document’s encoded document type identifier as defined in the PEPPOL BIS (`busdox-docid-qns` as default when document type identifier scheme is not specified). The document type identifiers MUST be formatted as specified in <<PEPPOL-ID-POL>>.
+
+// TODO
 
 [cols="1,2", options="header"]
 .P-Modes for OpenPEPPOL
@@ -11,25 +15,36 @@ When sending the business document the Access Point MUST set *PMode[1].BusinessI
 | Value
 
 | PMode[1].BusinessInfo.Service
-| The PEPPOL Process identifier of the business document formatted as follows: «scheme id»::«process id value» +
+| The PEPPOL Process identifier of the business document.
 
 Example: +
-`cenbii-procid-ubl::urn:www.cenbii.eu:profile:bii01:ver2.0`
+`urn:www.cenbii.eu:profile:bii01:ver2.0`
 
 | PMode[1].BusinessInfo.Service.type
-| Fixed value: `urn:fdc:peppol.eu:2017:identifiers:proc-id`
+| The PEPPOL process identifier schema of the buiness document.
+
+Example: +
+`cenbii-procid-ubl`
 
 | PMode[1].BusinessInfo.Action
-| The encoded PEPPOL Document type identifier of the business document, as registered in the SMP: //DocumentIdentifier +
+| The PEPPOL document type identifier of the business document formatted as follows: +
+`«scheme id»::«document type id value»`
 
 Example: +
 `busdox-docid-qns::urn:oasis:names:specification:ubl:schema:
-xsd:Invoice-2::Invoice##urn:www.cenbii.eu:transaction:biitrns010:
-ver2.0:extended:urn:www.peppol.eu:bis:peppol5a:ver2.0::2.1`
+xsd:Invoice-2::Invoice##urn:www.cenbii.eu:transaction:
+biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:
+peppol5a:ver2.0::2.1`
 |===
 
 NOTE: *From CEF:* +
 you may want to add that the value of the @schema attribute on ProcessIdentifier in SMP maps to the @type on Service in AS4
 
+NOTE: *From OpenPEPPOL:* +
+This is now changed.
+
 NOTE: *From CEF:* +
 You should add that if the document identifier has the type “busdox-docid-qns”, the value for the AS4 Action is the concatenation of the busdox-docid-qns:: prefix and PEPPOL document identifier. This was underspecified in the previous version of the PEPPOL AS4 specification, now would be the perfect opportunity to properly document this.
+
+NOTE: *From OpenPEPPOL:* +
+Clarification on handling of scheme for document type identifier is added, no special text related to "busdox-docid-qns".
