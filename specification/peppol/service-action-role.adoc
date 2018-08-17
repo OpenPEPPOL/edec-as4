@@ -36,15 +36,3 @@ xsd:Invoice-2::Invoice##urn:www.cenbii.eu:transaction:
 biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:
 peppol5a:ver2.0::2.1`
 |===
-
-NOTE: *From CEF:* +
-you may want to add that the value of the @schema attribute on ProcessIdentifier in SMP maps to the @type on Service in AS4
-
-NOTE: *From OpenPEPPOL:* +
-This is now changed.
-
-NOTE: *From CEF:* +
-You should add that if the document identifier has the type “busdox-docid-qns”, the value for the AS4 Action is the concatenation of the busdox-docid-qns:: prefix and PEPPOL document identifier. This was underspecified in the previous version of the PEPPOL AS4 specification, now would be the perfect opportunity to properly document this.
-
-NOTE: *From OpenPEPPOL:* +
-Clarification on handling of scheme for document type identifier is added, no special text related to "busdox-docid-qns".

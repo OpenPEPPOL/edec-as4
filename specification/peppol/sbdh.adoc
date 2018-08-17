@@ -8,10 +8,4 @@ Standalone SBDH as described by <<CEFeDeliveryAS4>> is not supported and MUST NO
 
 For transmissions in the PEPPOL network is <<CEFeDeliveryAS4>> 4.2.1, 4.2.5, 4.2.6 relevant, including use of *originalSender* and *finalRecipient*.
 
-NOTE: *From CEF:* +
-Then you should not expect conformance to conformance clause 6.3 and change it to conformance to the PEPPOL Envelope specification.
-
-NOTE: *From OpenPEPPOL:* +
-Rewritten to clarify PEPPOL Envelope Specification is used for packaging (this is not provided by CEF eDelivery AS4), and CEF eDelivery AS4 is used for population of AS4 Header, specifically 4.2.6.
-
-The SBDH containing a business message MUST be found in the first MIME attachement after the MIME attachment containing the AS4 header.
+The SBDH containing a business message MUST be found in the first MIME attachment after the MIME attachment containing the AS4 header.

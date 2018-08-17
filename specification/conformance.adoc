@@ -4,21 +4,7 @@ In order for an AS4 implementation to conform to the PEPPOL AS4 Profile, it MUST
 
 * Support _6.1. eDelivery AS4 Common Profile Conformance Clause_ in CEF eDelivery AS4 specification.
 * Support _6.2. eDelivery AS4 Four Corner Topology Conformance Clause_ in CEF eDelivery AS4 specification.
-
-NOTE: *From CEF:* +
-Here you claim to conform to the 6.2 Four Corner Topology Conformance Clause, but that references the eDelivery Four Corner Topology Profile Enhancement, which mandates originalSender and finalRecipient message properties.  If you are not using them, you should document this and not require conformance to this clause.
-
-NOTE: *From OpenPEPPOL:* +
-Clarification made to the SBDH section should clarify conformaty to 6.2.
-
 * Support _6.3. eDelivery AS4 SBDH Conformance Clause_ in CEF eDelivery AS4 specification.
-
-NOTE: *From CEF:* +
-As commented above, in section 3.9, you should not expect conformance to conformance clause 6.3 and change it to conformance to the PEPPOL Envelope specification.
-
-NOTE: *From OpenPEPPOL:* +
-Clarification made to the SBDH section should clarify conformaty to 6.3.
-
 * Support _6.4. eDelivery AS4 Dynamic Receiver Conformance Clause_ in CEF eDelivery AS4 specification.
 * Support _6.6. eDelivery AS4 Dynamic Sender in Four Corner Exchanges Conformance Clause_ in CEF eDelivery AS4 specification.
 * Conform to all normative statements and requirements in chapter 3 in this document.
