@@ -6,6 +6,8 @@
 Changes:
 
 * Changing SMP transport profile identifier from `peppol-transport-as4-v1_0` to `peppol-transport-as4-v2_0`.
+* Adding missing references.
+* Changing value for MPC from a link to text to avoid misunderstandings.
 
 Contributors:
 
