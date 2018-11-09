@@ -1,5 +1,5 @@
 = Description
 
-This document descibes how to implement AS4 in the PEPPOL network. AS4 implementations must follow <<CEFeDeliveryAS4>> (CEF eDelivery AS4 Profile v1.13) and aspects described in this document that further define and restrict features and attributes that are either not profiled in the CEF specification, or are optional and not used in the PEPPOL network.
+This document describes how to implement AS4 in the PEPPOL network. AS4 implementations must follow <<CEFeDeliveryAS4>> (CEF eDelivery AS4 Profile v1.14) and aspects described in this document that further define and restrict features and attributes that are either not profiled in the CEF specification, or are optional and not used in the PEPPOL network.
 
-In short, AS4 is used in the PEPPOL network for transmission of asynchronous messages between corner 2 and corner 3 in a Four Corner Topology using the PEPPOL PKI for signature and encryption on AS4 message level and SMP/SML for discovery.
+In short, AS4 is used in the PEPPOL network for transmission of asynchronous messages between corner 2 and corner 3 in a Four Corner Topology using the PEPPOL PKI for signature and encryption on AS4 message level and SMP/SML for dynamic discovery.
