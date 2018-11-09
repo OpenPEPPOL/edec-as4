@@ -1,5 +1,14 @@
 = Changelog
 
+== Version 2.0.0 RC2
+
+* Based on CEF eDelivery AS4 Profile v1.14
+
+Contributors
+
+* OpenPEPPOL TICC CMB
+* Jerry Dimitriou, University of Piraeus
+* Erlend Klakegg Bergheim, Difi
 
 == Version 2.0.0 RC1
 
@@ -14,15 +23,19 @@ Contributors:
 * OpenPEPPOL TICC CMB
 
 
-== Version 0.9.2
+== Version 2.0.0 B1
 
 This is the final delivery by the workgroup after feedback from CEF.
+Major changes from v1.0.0:
+
+* Completely based on CEF eDelivery AS4 profile v1.13
+* Mandatory TLS usage
+* New value for the SMP “transportProfile”
 
 Contributors:
 
 * Erlend Klakegg Bergheim, Difi
-* Jerry Dimitriou, University of Pireus
+* Jerry Dimitriou, University of Piraeus
 * Bård Langöy, Pagero
-* Philip Helger, BRZ
 * Even Østvold, Difi
 * Rune Kjørlaug, Difi
