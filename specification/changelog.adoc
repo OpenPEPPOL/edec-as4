@@ -8,7 +8,6 @@ Contributors
 
 * OpenPEPPOL TICC CMB
 * Jerry Dimitriou, University of Piraeus
-* Erlend Klakegg Bergheim, Difi
 
 == Version 2.0.0 RC1
 
