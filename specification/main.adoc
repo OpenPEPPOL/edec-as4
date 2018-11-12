@@ -9,7 +9,7 @@ v2.0.0 RC2
 :sectnums:
 
 :base: https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+AS4+-+1.14#eDeliveryAS4-1.14-
-
+:base-oasis-as4:
 :leveloffset: +1
 
 include::description.adoc[]
