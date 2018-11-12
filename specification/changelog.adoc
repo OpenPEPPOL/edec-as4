@@ -11,8 +11,8 @@
 Contributors
 
 * OpenPEPPOL TICC CMB
-* Jerry Dimitriou, OpenPEPPOL Operating Office
 * Erlend Klakegg Bergheim, Difi
+* Jerry Dimitriou, OpenPEPPOL Operating Office
 
 == Version 2.0.0 RC1
 Changes:
