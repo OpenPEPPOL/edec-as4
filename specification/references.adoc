@@ -5,7 +5,7 @@
 
 * [[[ebMS3CORE]]] OASIS ebXML Messaging Services Version 3.0: Part 1, Core Features, 1 October 2007, OASIS Standard, http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/core/ebms_core-3.0-spec.pdf
 
-* [[[PEPPOL-ID-POL]]] PEPPOL Transport Infrastructure Policy for use of Identifiers, Version 3.1, 27 March 2018, https://github.com/OpenPEPPOL/documentation/raw/master/TransportInfrastructure/PEPPOL_Policy%20for%20use%20of%20identifiers-310.pdf
+* [[[PEPPOL-ID-POL]]] PEPPOL Transport Infrastructure Policy for use of Identifiers, Version 3.1, 27 April 2018, https://github.com/OpenPEPPOL/documentation/raw/master/TransportInfrastructure/PEPPOL_Policy%20for%20use%20of%20identifiers-310.pdf
 
 * [[[PEPPOL-SMP]]] PEPPOL Transport Infrastructure Service Metadata Publishing (SMP), Version 1.1.0, 15 August 2012, https://github.com/OpenPEPPOL/peppol-eia/raw/master/1-ICT_Architecture/1-ICT-Transport_Infrastructure/13-ICT-Models/ICT-Transport-SMP_Service_Specification-110.pdf
 
