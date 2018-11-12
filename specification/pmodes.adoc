@@ -24,7 +24,7 @@ _Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 | Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
 
 | PMode.Initiator.Role
-| Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
+| Fixed value: ``http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/initiator``
 
 | PMode.Responder.Party
 | see link:#_party_identification[Party Identification]
@@ -33,7 +33,7 @@ _Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 | Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
 
 | PMode.Responder.Role
-| Fixed value: `urn:fdc:peppol.eu:2017:roles:ap:as4`
+| Fixed value: ``http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/responder``
 
 | PMode[].BusinessInfo.Service
 | see link:#_service_action_and_role[Service, Action and Role]
