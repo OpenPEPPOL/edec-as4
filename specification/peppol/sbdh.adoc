@@ -2,7 +2,7 @@
 
 _Related to CEF eDelivery AS4 link:{base}StandardBusinessDocumentHeader(SBDH)[4.2]._
 
-All transmissions in the PEPPOL network MUST package content as an integrated part using SBDH according to <<PEPPOLEnvelope>>, rendering 4.2.7 out of scope as SBDH is mandatory.
+All transmissions in the PEPPOL network MUST package content as an integrated part using SBDH according to <<PEPPOL-Envelope>>, rendering 4.2.7 out of scope as SBDH is mandatory.
 
 Standalone SBDH as described by <<CEFeDeliveryAS4>> is not supported and MUST NOT be used, rendering 4.2.2, 4.2.3, 4.2.4 out of scope.
 
