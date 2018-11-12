@@ -1,11 +1,11 @@
 [bibliography]
 = References
 
-* [[[CEFeDeliveryAS4]]] eDelivery AS4 - 1.14, 2018-05-30. https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+AS4+-+1.14
+* [[[CEFeDeliveryAS4]]] eDelivery AS4 - 1.14, 2018-10-31. https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+AS4+-+1.14
 
 * [[[ebMS3CORE]]] OASIS ebXML Messaging Services Version 3.0: Part 1, Core Features, 1 October 2007, OASIS Standard, http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/core/ebms_core-3.0-spec.pdf
 
-* [[[PEPPOL-ID-POL]]] PEPPOL Transport Infrastructure Policy for use of Identifiers, Version 3.0, 3 February 2014, https://openpeppol.github.io/documentation/TransportInfrastructure/old/PEPPOL_Policy%20for%20use%20of%20identifiers-300.pdf
+* [[[PEPPOL-ID-POL]]] PEPPOL Transport Infrastructure Policy for use of Identifiers, Version 3.1, 27 March 2018, https://github.com/OpenPEPPOL/documentation/raw/master/TransportInfrastructure/PEPPOL_Policy%20for%20use%20of%20identifiers-310.pdf
 
 * [[[PEPPOL-SMP]]] PEPPOL Transport Infrastructure Service Metadata Publishing (SMP), Version 1.1.0, 15 August 2012, https://github.com/OpenPEPPOL/peppol-eia/raw/master/1-ICT_Architecture/1-ICT-Transport_Infrastructure/13-ICT-Models/ICT-Transport-SMP_Service_Specification-110.pdf
 
@@ -13,6 +13,6 @@
 
 * [[[TIA-AP-PROV]]] PEPPOL Transport Infrastructure Agreements - PEPPOL AP Provider Agreement, Version 3.0, 18 June 2012, included in https://github.com/OpenPEPPOL/documentation/raw/master/TransportInfrastructure/TIA-PA-AP-SMP-web-watermarked.zip
 
-* [[[PEPPOL-Envelope]]] openPEPPOL Business Message Envelope (SBDH), Version 1.00, https://github.com/OpenPEPPOL/documentation/blob/master/TransportInfrastructure/ICT-Transport-OpenPEPPOL-Envelope_Specification-100_2014-01-15.pdf
+* [[[PEPPOL-Envelope]]] openPEPPOL Business Message Envelope (SBDH), Version 1.1.1, https://github.com/OpenPEPPOL/documentation/raw/master/TransportInfrastructure/ICT-Transport-OpenPEPPOL-Envelope_Specification-11_2018-08-31.pdf
 
 * [[[AS4-Profile]]] AS4 Profile of ebMS 3.0 Version 1.0. 23 January 2013, OASIS Standard, http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/os/AS4-profile-v1.0-os.html
