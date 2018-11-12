@@ -1,4 +1,4 @@
-= PEPPOL Dynamic Discovery using SMP and SBDH
+= PEPPOL Dynamic Discovery using SMP
 
 _Related to CEF eDelivery AS4 link:{base}DynamicSender[4.4]._
 
