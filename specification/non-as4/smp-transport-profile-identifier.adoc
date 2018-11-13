@@ -8,7 +8,7 @@ Receiving Access Points MUST ensure that they have configured one or more P-Mode
 == PEPPOL Dynamic Discovery
 
 === Sending Access Point
-The sending Access Point MUST follow the link:{base}DynamicSender}[Dynamic Sender Profile enhancement]. According to the profile enhancement, the sender MUST be able to create a FULL P-Mode using the dynamic discovery infrastructure. PEPPOL uses a combination of parameters found in SMP Signed Service Metadata Records to fill in the required P-Mode parameters.
+The sending Access Point MUST follow the link:{base}DynamicSender[Dynamic Sender Profile enhancement]. According to the profile enhancement, the sender MUST be able to create a FULL P-Mode using the dynamic discovery infrastructure. PEPPOL uses a combination of parameters found in SMP Signed Service Metadata Records to fill in the required P-Mode parameters.
 
 The following table depicts the P-Mode Parameters that must be fetched from the SMP Record
 
