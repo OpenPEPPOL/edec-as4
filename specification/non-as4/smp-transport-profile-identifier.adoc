@@ -1,7 +1,41 @@
-= SMP transport profile identifier
+= PEPPOL Dynamic Discovery using SMP
 
-_Related to CEF eDelivery AS4 link:{base}DynamicSender[4.4]._
+_Related to CEF eDelivery AS4 link:{base}DynamicSender[4.4] and link:{base}DynamicReceiver[4.5]._
 
+== Transport Profile Identifier
 Receiving Access Points MUST ensure that they have configured one or more P-Modes so they can receive messages for all combinations of document type and process (including scheme) identifiers referenced by AS4 endpoints (i.e. _transportProfile_ attribute has value `peppol-transport-as4-v2_0`) that they have registered in the SMP.
 
-Note that an Access Point MAY use a "generic" P-Mode to receive the registered business documents. Such a generic P-Mode only defines the parameters related to the Access Point itself but no business document specific ones.
+== PEPPOL Dynamic Discovery
+
+=== Sending Access Point
+The sending Access Point MUST follow the link:{base}DynamicSender}[Dynamic Sender Profile enhancement]. According to the profile enhancement, the sender MUST be able to create a FULL P-Mode using the dynamic discovery infrastructure. PEPPOL uses a combination of parameters found in SMP Signed Service Metadata Records to fill in the required P-Mode parameters.
+
+The following table depicts the P-Mode Parameters that must be fetched from the SMP Record
+
+.P-Mode Parameter Mapping for Dynamic Sender
+|===
+|P-Mode Parameter | SMP Record Attribute
+
+|PMode[1].BusinessInfo.Action
+|SignedServiceMetadata/ServiceMetadata/ServiceInformation /DocumentIdentifier
+
+|PMode[1].BusinessInfo.Service
+|SignedServiceMetadata/ServiceMetadata/ServiceInformation /Processlist/Process/ProcessIdentifier
+
+|PMode[1].BusinessInfo.Service@type
+|SignedServiceMetadata/ServiceMetadata/ServiceInformation /Processlist/Process/ProcessIdentifier@type
+
+|PMode[].Protocol.Address
+|SignedServiceMetadata/ServiceMetadata/ServiceInformation /Processlist/Process/ServiceEndpointList/Endpoint /EndpointReference/Address
+
+
+|PMode[1].Security.Encryption.Certificate
+|SignedServiceMetadata/ServiceMetadata/ServiceInformation  /Processlist/Process/ServiceEndpointList/ Endpoint[@transportProfile="peppol-transport-as4-v2_0"]/Certificate
+|===
+
+
+=== Receiving Access Point
+Following the guidelines provided in CEF eDelivery AS4 link:{base}DynamicReceiver[4.5], an Access Point MAY use a "generic" P-Mode to receive the registered business documents. Such a generic P-Mode only defines the parameters related to the Access Point itself but no business document specific ones.
+
+
+

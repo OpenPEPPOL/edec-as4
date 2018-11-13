@@ -3,14 +3,18 @@
 == Version 2.0.0 RC2
 
 * Based on CEF eDelivery AS4 Profile v1.14
+* Added missing references
+* Updated MSH Roles
+* Updated TLS Ports and TLS Usage
+* Added a subsection on Dynamic Discovery
 
 Contributors
 
 * OpenPEPPOL TICC CMB
-* Jerry Dimitriou, University of Piraeus
+* Erlend Klakegg Bergheim, Difi
+* Jerry Dimitriou, OpenPEPPOL Operating Office
 
 == Version 2.0.0 RC1
-
 Changes:
 
 * Changing SMP transport profile identifier from `peppol-transport-as4-v1_0` to `peppol-transport-as4-v2_0`.
@@ -34,7 +38,7 @@ Major changes from v1.0.0:
 Contributors:
 
 * Erlend Klakegg Bergheim, Difi
-* Jerry Dimitriou, University of Piraeus
+* Jerry Dimitriou, OpenPEPPOL Operating Office
 * Bård Langöy, Pagero
 * Even Østvold, Difi
 * Rune Kjørlaug, Difi
