@@ -6,14 +6,15 @@ services:
 - docker
 
 script:
-- docker run --rm -i -v $(pwd)/docs:/documents -v $(pwd)/target/site:/target difi/asciidoctor
-- docker run --rm -i -v $(pwd)/target:/src -w /src/site kramos/alpine-zip -r /src/ticc-as4-$TRAVIS_BRANCH.zip .
+- sh build.sh
 
 deploy:
   provider: releases
   api_key:
     secure: V4QBx4EtkgrJvpsCYZELmHoGroH+IIfGid39Jif6LvPO5aifx5gBlsCKBvJfdya1Z4utIJcy965UBwz9J6V8hiZziOISv4uygn7fO4fh6YvbWWN4z8knFThVx6RQpUwakWfCRjT7WeZp5r84hzPhSvrtnN2H4evK5m087m+h6eCxzNbPn6I2T5uacX8gJcKMAWFXxUZm3Y82XrGZENHquEjPFDRCUXvIWOTdga9MZQTdnE2GTK0/4hlRO5hAmTB/uzKHLYU9VBtu8P/vdRQ7PMMftBrKp8BVNveCqcu1qzP4cqPJhr3uDlLMq88EVfqgfBbsOt6tDFp3s9/tw7uVECNF8cBq+5c0rTdch+SuPivi9ovrowFGipUF9IR4xuwtOYMTyQF11iaX+NVZPIW9kO+I5j62nRjuWQG68kEcRhgkYeObo5AdOfp4RZg1I91cS0l6OyuaePxYLp1699/3chU1sguS7Bt5nH/7Zc/SkOKoRltF/rnF26hPG38WrI75wqham5E4KVstqIbOV8DOAaV9aVLVwPqGdfLbt+TeZ2NwiFPf9mTqy0DmTKJGzf4ZHCql5fsKvzb8Bm4Dju223m9mwE7eCuUd27XE3QLlrdHAuEaXL54r5YeRj4hB+s7mpuOr+wL4ZwkewYLlOhMkqj/dAFAp0Ozyr4P1c7QKoEA=
+  file_glob: true
   file: target/*.zip
+  skip_cleanup: true
   on:
     repo: OpenPEPPOL/edelivery-as4
     tags: true

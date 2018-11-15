@@ -1,5 +1,12 @@
 = Changelog
 
+:sectnums!:
+
+== Version 2.0.0
+
+Final version 2.0.0.
+
+
 == Version 2.0.0 RC2
 
 * Based on CEF eDelivery AS4 Profile v1.14
@@ -14,7 +21,9 @@ Contributors
 * Erlend Klakegg Bergheim, Difi
 * Jerry Dimitriou, OpenPEPPOL Operating Office
 
+
 == Version 2.0.0 RC1
+
 Changes:
 
 * Changing SMP transport profile identifier from `peppol-transport-as4-v1_0` to `peppol-transport-as4-v2_0`.
@@ -42,3 +51,5 @@ Contributors:
 * Bård Langöy, Pagero
 * Even Østvold, Difi
 * Rune Kjørlaug, Difi
+
+:sectnums:

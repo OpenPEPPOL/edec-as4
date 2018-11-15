@@ -1,6 +1,6 @@
 = OpenPEPPOL AS4 Profile
 OpenPEPPOL AISBL
-v2.0.0 RC2
+v2.0.0
 :doctype: book
 :icons: font
 :toc: left
