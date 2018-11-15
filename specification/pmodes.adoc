@@ -2,6 +2,7 @@
 
 _Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 
+The following table lists the PMode paramaters that are profiled in the PEPPOL AS4 Specification. Parameters not listed, inherit link:{base}P-ModeParameters[the default values of CEF AS4 Specification] and ultimately link:http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/200707/csd03/AS4-profile-csd03.html#__RefHeading__26466_1909778835[the default values of the OASIS AS4 Specification].
 [cols="1,2", options="header"]
 .Changed P-modes for OpenPEPPOL
 |===
@@ -23,17 +24,11 @@ _Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 | PMode.Initiator.Party.type
 | Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
 
-| PMode.Initiator.Role
-| Fixed value: ``http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/initiator``
-
 | PMode.Responder.Party
 | see link:#_party_identification[Party Identification]
 
 | PMode.Responder.Party.type
 | Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
-
-| PMode.Responder.Role
-| Fixed value: ``http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/responder``
 
 | PMode[].BusinessInfo.Service
 | see link:#_service_action_and_role[Service, Action and Role]
@@ -47,3 +42,4 @@ _Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 | PMode[].BusinessInfo.MPC
 | Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultMPC`
 |===
+
