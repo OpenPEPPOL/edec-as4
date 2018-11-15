@@ -10,4 +10,4 @@ In the PEPPOL network the access point MUST be configured according to the follo
 * It is *HIGHLY RECOMMENDED* to use port *443* for TLS. In case this is not possible, then the receiving access point MUST use a port from the range 44300 to 44399 inclusive.
 * Sending access points need only to allow outbound transmissions to ports *443* and *44300*-*44399* inclusive.
 
-TLS MUST use a valid certificate issued by a trusted issuing agency, according to the link:https://github.com/OpenPEPPOL/documentation/tree/master/TransportInfrastructure[PEPPOL Trust Network Certificate Policy].
+TLS MUST use a valid certificate compliant with the PEPPOL Policy for transport security.
