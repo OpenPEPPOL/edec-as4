@@ -2,9 +2,11 @@
 
 :sectnums!:
 
-== Version 2.0.0
+== Version 2.0.0 (2018-11-16)
 
 Final version 2.0.0.
+
+* Aligning MSH Roles to use default values of AS2 specification.
 
 
 == Version 2.0.0 RC2

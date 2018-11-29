@@ -1,4 +1,4 @@
-= OpenPEPPOL AS4 Profile
+= PEPPOL AS4 Profile
 OpenPEPPOL AISBL
 v2.0.0
 :doctype: book
