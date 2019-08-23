@@ -26,11 +26,10 @@ The following table depicts the P-Mode Parameters that must be fetched from the 
 |SignedServiceMetadata/ServiceMetadata/ServiceInformation /Processlist/Process/ProcessIdentifier@type
 
 |PMode[].Protocol.Address
-|SignedServiceMetadata/ServiceMetadata/ServiceInformation /Processlist/Process/ServiceEndpointList/Endpoint /EndpointReference/Address
-
+|SignedServiceMetadata/ServiceMetadata/ServiceInformation /Processlist/Process/ServiceEndpointList /Endpoint[@transportProfile="peppol-transport-as4-v2_0"]/EndpointReference/Address
 
 |PMode[1].Security.Encryption.Certificate
-|SignedServiceMetadata/ServiceMetadata/ServiceInformation  /Processlist/Process/ServiceEndpointList/ Endpoint[@transportProfile="peppol-transport-as4-v2_0"]/Certificate
+|SignedServiceMetadata/ServiceMetadata/ServiceInformation /Processlist/Process/ServiceEndpointList /Endpoint[@transportProfile="peppol-transport-as4-v2_0"]/Certificate
 |===
 
 
