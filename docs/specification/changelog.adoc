@@ -2,9 +2,15 @@
 
 :sectnums!:
 
+== Version 2.0.1 (2019-08-23)
+
+Version 2.0.1.
+
+* Fixing inconsistency in "service type" usage. The correct value is `cenbii-procid-ubl`. 
+
 == Version 2.0.0 (2018-11-16)
 
-Final version 2.0.0.
+Release version 2.0.0.
 
 * Aligning MSH Roles to use default values of AS2 specification.
 
