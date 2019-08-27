@@ -4,7 +4,7 @@
 
 == Version 2.0.1 (2019-08-23)
 
-Version 2.0.1.
+Release version 2.0.1.
 
 * Fixing inconsistency in "service type" usage. The correct value is `cenbii-procid-ubl`. 
 
