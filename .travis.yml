@@ -1,20 +1,33 @@
 sudo: required
-
 language: bash
-
 services:
 - docker
-
 script:
 - sh build.sh
-
 deploy:
-  provider: releases
-  api_key:
-    secure: V4QBx4EtkgrJvpsCYZELmHoGroH+IIfGid39Jif6LvPO5aifx5gBlsCKBvJfdya1Z4utIJcy965UBwz9J6V8hiZziOISv4uygn7fO4fh6YvbWWN4z8knFThVx6RQpUwakWfCRjT7WeZp5r84hzPhSvrtnN2H4evK5m087m+h6eCxzNbPn6I2T5uacX8gJcKMAWFXxUZm3Y82XrGZENHquEjPFDRCUXvIWOTdga9MZQTdnE2GTK0/4hlRO5hAmTB/uzKHLYU9VBtu8P/vdRQ7PMMftBrKp8BVNveCqcu1qzP4cqPJhr3uDlLMq88EVfqgfBbsOt6tDFp3s9/tw7uVECNF8cBq+5c0rTdch+SuPivi9ovrowFGipUF9IR4xuwtOYMTyQF11iaX+NVZPIW9kO+I5j62nRjuWQG68kEcRhgkYeObo5AdOfp4RZg1I91cS0l6OyuaePxYLp1699/3chU1sguS7Bt5nH/7Zc/SkOKoRltF/rnF26hPG38WrI75wqham5E4KVstqIbOV8DOAaV9aVLVwPqGdfLbt+TeZ2NwiFPf9mTqy0DmTKJGzf4ZHCql5fsKvzb8Bm4Dju223m9mwE7eCuUd27XE3QLlrdHAuEaXL54r5YeRj4hB+s7mpuOr+wL4ZwkewYLlOhMkqj/dAFAp0Ozyr4P1c7QKoEA=
-  file_glob: true
-  file: target/*.zip
-  skip_cleanup: true
-  on:
-    repo: OpenPEPPOL/edelivery-as4
-    tags: true
+  - provider: releases
+    api_key:
+      secure: V4QBx4EtkgrJvpsCYZELmHoGroH+IIfGid39Jif6LvPO5aifx5gBlsCKBvJfdya1Z4utIJcy965UBwz9J6V8hiZziOISv4uygn7fO4fh6YvbWWN4z8knFThVx6RQpUwakWfCRjT7WeZp5r84hzPhSvrtnN2H4evK5m087m+h6eCxzNbPn6I2T5uacX8gJcKMAWFXxUZm3Y82XrGZENHquEjPFDRCUXvIWOTdga9MZQTdnE2GTK0/4hlRO5hAmTB/uzKHLYU9VBtu8P/vdRQ7PMMftBrKp8BVNveCqcu1qzP4cqPJhr3uDlLMq88EVfqgfBbsOt6tDFp3s9/tw7uVECNF8cBq+5c0rTdch+SuPivi9ovrowFGipUF9IR4xuwtOYMTyQF11iaX+NVZPIW9kO+I5j62nRjuWQG68kEcRhgkYeObo5AdOfp4RZg1I91cS0l6OyuaePxYLp1699/3chU1sguS7Bt5nH/7Zc/SkOKoRltF/rnF26hPG38WrI75wqham5E4KVstqIbOV8DOAaV9aVLVwPqGdfLbt+TeZ2NwiFPf9mTqy0DmTKJGzf4ZHCql5fsKvzb8Bm4Dju223m9mwE7eCuUd27XE3QLlrdHAuEaXL54r5YeRj4hB+s7mpuOr+wL4ZwkewYLlOhMkqj/dAFAp0Ozyr4P1c7QKoEA=
+    file_glob: true
+    file: target/*.zip
+    skip_cleanup: true
+    on:
+      repo: OpenPEPPOL/edelivery-as4
+      tags: true
+
+  - provider: s3
+    secret_access_key:
+      secure: PB35mXmdsE3M2gURLUp5pjlRw3PsU+JR7NCUE4jjyKrlII/3b/OkLZTGk0blZ5HPpo3g8LoDoCKQF8bQTXICd/jCFqXkndopusF45z4ysVpJWOSiDZExoZaYqPd35toHfMVhWTDYU0YDqWDxz/nXdpzAAuTjhFuYuCjHGQTrl/n/7qWq0/+HgbJbasNIVrzG4zkISucnbukNL/tT/RsM/b3QdTGzqb3VE2ua0v6+FUo9o9/bDXM4A5q/mpH6cGXMuHAz5Cuk/LjgO4tFRbuheCU8MT1hqaKV1Ogl/WkbeL4fUPHnVnimRRD1lief00vOPTsek3G3oCwiCFHMR4Z2t/xuEa+8SGYFMlIT8sZRvdrkV9hMLBmOUokv+nWR7FygJT6ZZgrh6oO9tSFZvzk0PsbUlkYduYYJoW0oy1xed9CzKGhYJMyzRU6BTVujAonSSJ+tLKxACXticmmWBmLJ6Oo1+wSsKvaFw/z/7ZExxELf0Sb3w4yMbsdazszPZwxCQGyYntOAgkttfdU+3tC5SdWyfiiEE9CBfUwv3V1OA9cxmqGK3Hsgtb8d8Q9dFQHf3UWae4z/l42lGGAnFaF55VUvzJ/piLkuB3HxuP60nIDpnBF/hY5fwZf6y1rCGUTYb8J6tbvgLvQpo9lf4UTemS+1znYvzLskKA/byGHWmrI=
+    access_key_id:
+      secure: KOm4Ql0/P/eEp6J0+IP8Y4FZqPgMa4HHmq6X3uzloApCrXtxyykcB+Ww0/eezm2F8cUIKAWXzcwD7Psfd/jQhGSRCnPkuE8GrNTjmQifi8k6pj9zBkUpHCkxYC7BE8ZbFT3QflnwxBpCGPN1qPDVcrtpEA6VttolMPyOkcA62cyQXJwjn5GjEQqegEEOZ5EZzORPnyuNO8dlGRncyq7u2gzyVikcOPfcorVubS8D45k8/eb5vI+dbQJ9WdDxGQcGqKExR9sSIALj7fHCZ/d57j4el+iQ8q02SxTiMqN+jJK1n9GWOhIOY40VOEmoATxObfPhrWuOet5HIQ03ZIhirxdlrJ5B01vvp3G9PldRb++1K45ZNlIEMBtfcgjpal1J+tAm4NDtY1hH+u54o9wzOHSD7tXE9x8V0NXa4u85fNC33Wy3NGWvN5UQP8tRhTzUBhMdIoBFswoW6yebAkmnjJBOSUw7Fq8qaiNp5wN+RVls8kICBor9JagXlvHaJCpRvhuJ/4PPUCDgxsBUWAaDjkt3gWwysxgAGP0DLSyCixIeV7eoUDr2qdFn94yZx2RxpaIUrZWLUDUzWgsVDrFq1mWe1ZTEhXcFwKK9z4icA8E76NboHnp6UyVWACPDxb8/pVMGr+JjOX8YKAOR+9cd9IvFxrByxVMyCDgVKt9yNwQ=
+    bucket:
+      secure: drArVH5iPGRLUeEmw1fKrYbimvyZts1ycjeMI9nJ+343PdoMtyrITBQfzM/VvGRRqlYGc8FrdUeGUKoZnHns/nD1Q+JW/8OFSnVP8i8bBXIE9rYG7B9jAOztTte8OFtk2Zn3dDyBvu+9zf1g+02F95JT+T3pG/XxlMfGxdha3oqP5B8OrCOI5d6xGBHeUmcQUvttn+Ugwsh2YyL6ln0hkGzp9ncpspSpaskwHtdcQdvizeyBNB53h2/q4zRWqubbSNBlXRFOyGEY71gKDmghBu7WXNpNJSSPTLGiKKp1uss191dxVN9Bs5e6tURUCVqSlLZ54qQHwEIGnS4dTzJUo/ukyJ88s+3V5v/RRAyoAjTIg1nBUGAqYeuCs8mmrU8L9Ngd9Qav5nBxEMVPdCm2aQLao8DD+PZLaCWbGJGzodpI+tcde4+3/9aTaQ/JHWevvy1sn4htr7Pyi1nA8zUsVaPdkVcw3neJAxbPGW7sQxuTbxNsYQRdsrTwnXyB/pt4oKfxsXuZN4C3jeUK3PBOgojBHgaiaiSjcXS1XEi8nnVTd0YwHednwWdUA/dL66W0e9zYNrdm9xea051/3ox7W0mEJ3dQzpi3nmzLvY6u6K3dwjwACCwof+LP+LkbnYiTqGTQ++dIn+vDQGNgRbVI1b5cjNzALcAAYnFIpQKRb28=
+    region: eu-west-1
+    local_dir: target/site
+    skip_cleanup: true
+    upload-dir: edelivery/as4
+    acl: public_read
+    on:
+      repo: OpenPEPPOL/edelivery-as4
+      branch: master
+
