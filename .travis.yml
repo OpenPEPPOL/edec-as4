@@ -14,7 +14,6 @@ deploy:
     on:
       repo: OpenPEPPOL/edelivery-as4
       tags: true
-
   - provider: s3
     secret_access_key:
       secure: PB35mXmdsE3M2gURLUp5pjlRw3PsU+JR7NCUE4jjyKrlII/3b/OkLZTGk0blZ5HPpo3g8LoDoCKQF8bQTXICd/jCFqXkndopusF45z4ysVpJWOSiDZExoZaYqPd35toHfMVhWTDYU0YDqWDxz/nXdpzAAuTjhFuYuCjHGQTrl/n/7qWq0/+HgbJbasNIVrzG4zkISucnbukNL/tT/RsM/b3QdTGzqb3VE2ua0v6+FUo9o9/bDXM4A5q/mpH6cGXMuHAz5Cuk/LjgO4tFRbuheCU8MT1hqaKV1Ogl/WkbeL4fUPHnVnimRRD1lief00vOPTsek3G3oCwiCFHMR4Z2t/xuEa+8SGYFMlIT8sZRvdrkV9hMLBmOUokv+nWR7FygJT6ZZgrh6oO9tSFZvzk0PsbUlkYduYYJoW0oy1xed9CzKGhYJMyzRU6BTVujAonSSJ+tLKxACXticmmWBmLJ6Oo1+wSsKvaFw/z/7ZExxELf0Sb3w4yMbsdazszPZwxCQGyYntOAgkttfdU+3tC5SdWyfiiEE9CBfUwv3V1OA9cxmqGK3Hsgtb8d8Q9dFQHf3UWae4z/l42lGGAnFaF55VUvzJ/piLkuB3HxuP60nIDpnBF/hY5fwZf6y1rCGUTYb8J6tbvgLvQpo9lf4UTemS+1znYvzLskKA/byGHWmrI=
@@ -30,4 +29,5 @@ deploy:
     on:
       repo: OpenPEPPOL/edelivery-as4
       branch: master
-
+  bucket:
+    secure: awKsD3Fxg4AjMjx0UCuXkqe/ysHiv+VFk7Aduoa0YDrdYgI3lap+nB5FoppoSYwIQI6fNbSiZ9L+cW7a3LLUP/HoRfrByH1UJnEbFftbhXNY/R7YPnAnBoE+t48RqYZXRRo41WiS4OWzWB+xxULyGdWcgR0j203m3MjY2mDHmG8LOuzYLdHQ/cNZw5onNOvYyLNVRAbpbR8tEJ5CgEoHVBe6Zf7ufcncxiWQ6SxC5BQcMfLzOVy2EIHsuwirIUiLOXP4FyIl4ToR5pWlLl97lloD2U1EDR0uSMOv0FvtH/7oTrJ4nmEydBbPW+g3S9aGAkhL+pRpU1gkYZ0zejIqGJUX5HA+HG807QJ+vsyORXXIrq5hD3vRzpCH7vm0CqMzAnxy1TmibEe5Q1hZwYN04PW7AFCcIjn42Bi3DKHp2PrsOcj3XizREjIb83Dc5Ir3RZ6pn+mXkL0EaTQ30zUtcco6K/HCHbDJKCPTfeZ5w08NAKI5PcR6W1OqVhHj6f9ZzJvILx1+Np5RXgrZUFcZUZ4jKbWU0MUTHyOzC2kQdgI27MFdIbJ7qaLW8+BvAIX+qMerE+kHJQE1EEjVMQrn5socV815E7KZGhm2Wmj+4L9a4XXlYtNXW7T5qv8SI/AVkRudFrmO/7UpQRT/Qmk97Ssgbf2TInybHyRWarsHCGs=
