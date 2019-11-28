@@ -34,7 +34,7 @@ The following table lists the PMode paramaters that are profiled in the Peppol A
 | see link:#_service_action_and_role[Service, Action and Role]
 
 | PMode[].BusinessInfo.Service.type
-| Fixed value: `cenbii-procid-ubl`
+| see link:#_service_action_and_role[Service, Action and Role]
 
 | PMode[].BusinessInfo.Action
 | see link:#_service_action_and_role[Service, Action and Role]

@@ -7,6 +7,7 @@
 * Added a statement that "Binary Security Token" must be used
 * Updated the references to the latest versions 
 * Changed "PEPPOL" to "Peppol"
+* Replaced the "fixed value cenbii-procid-ubl" in chapter 5 with a link
 
 == Version 2.0.1 (2019-08-23)
 

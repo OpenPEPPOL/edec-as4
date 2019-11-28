@@ -15,13 +15,13 @@ When sending the business document the Access Point MUST set *PMode[1].BusinessI
 | Value
 
 | PMode[1].BusinessInfo.Service
-| The Peppol Process identifier of the business document.
+| The Peppol Process Identifier Value of the business document.
 
 Example: +
 `urn:www.cenbii.eu:profile:bii01:ver2.0`
 
 | PMode[1].BusinessInfo.Service.type
-| The Peppol process identifier schema of the buiness document.
+| The Peppol Process Identifier Scheme of the business document.
 
 Example: +
 `cenbii-procid-ubl`
