@@ -1,6 +1,6 @@
 = Conformance
 
-In order for an AS4 implementation to conform to the PEPPOL AS4 Profile, it MUST:
+In order for an AS4 implementation to conform to the Peppol AS4 Profile, it MUST:
 
 * Support _6.1. eDelivery AS4 Common Profile Conformance Clause_ in CEF eDelivery AS4 specification.
 * Support _6.2. eDelivery AS4 Four Corner Topology Conformance Clause_ in CEF eDelivery AS4 specification.

@@ -2,6 +2,6 @@
 
 _Related to CEF eDelivery AS4 link:{base}DynamicReceiver[4.3] and link:{base}DynamicSender[4.4]._
 
-Lookup functionalities in the PEPPOL network use Busdox SMP and Busdox SML according to <<PEPPOL-SML>> and <<PEPPOL-SMP>>.
+Lookup functionalities in the Peppol network use Busdox SMP and Busdox SML according to <<PEPPOL-SML>> and <<PEPPOL-SMP>>.
 
 OpenPEPPOL will upgrade to OASIS BDXL and OASIS BDXR SMP as part of a later migration project.

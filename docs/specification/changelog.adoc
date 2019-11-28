@@ -2,6 +2,12 @@
 
 :sectnums!:
 
+== Version 2.0.2 - unreleased
+
+* Added a statement that "Binary Security Token" must be used
+* Updated the references to the latest versions 
+* Changed "PEPPOL" to "Peppol"
+
 == Version 2.0.1 (2019-08-23)
 
 Release version 2.0.1.

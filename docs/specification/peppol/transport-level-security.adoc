@@ -2,12 +2,12 @@
 
 _Related to CEF eDelivery AS4 link:{base}Security[3.2.6] and link:{base}Security.1[3.4.5]._
 
-Access Points that are part of the PEPPOL network do not exchange information related to IPs and ports upfront of transmitting messages as descibed in <<CEFeDeliveryAS4>>.
+Access Points that are part of the Peppol network do not exchange information related to IPs and ports upfront of transmitting messages as descibed in <<CEFeDeliveryAS4>>.
 
-In the PEPPOL network the access point MUST be configured according to the following:
+In the Peppol network the access point MUST be configured according to the following:
 
 * Receiving access points MUST support TLS according to section link:{base}Security[3.2.6] of CEF eDelivery AS4. Versions newer than TLS v1.2 might be used upon mutual agreement via the TLS handshake.
 * It is *HIGHLY RECOMMENDED* to use port *443* for TLS. In case this is not possible, then the receiving access point MUST use a port from the range 44300 to 44399 inclusive.
 * Sending access points need only to allow outbound transmissions to ports *443* and *44300*-*44399* inclusive.
 
-TLS MUST use a valid certificate compliant with the PEPPOL Policy for transport security.
+TLS MUST use a valid certificate compliant with the Peppol Policy for transport security.

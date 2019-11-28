@@ -2,7 +2,7 @@
 
 _Related to CEF eDelivery AS4 link:{base}Service,ActionandRole[3.4.4]._
 
-When sending the business document the Access Point MUST set *PMode[1].BusinessInfo.Service* to the PEPPOL process identifier as specified for the business document. The *PMode[1].BusinessInfo.Service.type* MUST be set to the PEPPOL process identifier schema as specified for the business document (`cenbii-procid-ubl` as default when not specified). The values for scheme and process identifier SHALL NOT use URL percent encoding.
+When sending the business document the Access Point MUST set *PMode[1].BusinessInfo.Service* to the Peppol process identifier as specified for the business document. The *PMode[1].BusinessInfo.Service.type* MUST be set to the Peppol process identifier schema as specified for the business document (`cenbii-procid-ubl` as default when not specified). The values for scheme and process identifier SHALL NOT use URL percent encoding.
 
 *PMode[1].BusinessInfo.Action* MUST be set to business document’s encoded document type identifier as defined for the business document (`busdox-docid-qns` as default when document type identifier scheme is not specified). The document type identifiers MUST be formatted as specified in <<PEPPOL-ID-POL>>.
 
@@ -15,19 +15,19 @@ When sending the business document the Access Point MUST set *PMode[1].BusinessI
 | Value
 
 | PMode[1].BusinessInfo.Service
-| The PEPPOL Process identifier of the business document.
+| The Peppol Process identifier of the business document.
 
 Example: +
 `urn:www.cenbii.eu:profile:bii01:ver2.0`
 
 | PMode[1].BusinessInfo.Service.type
-| The PEPPOL process identifier schema of the buiness document.
+| The Peppol process identifier schema of the buiness document.
 
 Example: +
 `cenbii-procid-ubl`
 
 | PMode[1].BusinessInfo.Action
-| The PEPPOL document type identifier of the business document formatted as follows: +
+| The Peppol document type identifier of the business document formatted as follows: +
 `«scheme id»::«document type id value»`
 
 Example: +

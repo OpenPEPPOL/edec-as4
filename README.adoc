@@ -1,4 +1,4 @@
-= PEPPOL AS4 Profile
+= Peppol AS4 Profile
 
 Current release is v2.0.1 from 2019-08-23.
 
