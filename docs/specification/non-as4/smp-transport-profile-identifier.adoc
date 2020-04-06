@@ -1,6 +1,6 @@
 = Peppol Dynamic Discovery using SMP
 
-_Related to CEF eDelivery AS4 link:{base}DynamicSender[4.4] and link:{base}DynamicReceiver[4.5]._
+_Related to CEF eDelivery AS4 link:{base}DynamicReceiver[4.3] and link:{base}DynamicSender[4.4]._
 
 == Transport Profile Identifier
 Receiving Access Points MUST ensure that they have configured one or more P-Modes so they can receive messages for all combinations of document type and process (including scheme) identifiers referenced by AS4 endpoints (i.e. _transportProfile_ attribute has value `peppol-transport-as4-v2_0`) that they have registered in the SMP.
