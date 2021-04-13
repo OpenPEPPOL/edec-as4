@@ -2,7 +2,7 @@
 
 :sectnums!:
 
-== Version 2.0.2 - unreleased
+== Version 2.0.2 (2021-04-13)
 
 * Added a statement that "Binary Security Token" must be used
 * Updated the references to the latest versions 
