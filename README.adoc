@@ -1,7 +1,5 @@
 = Peppol AS4 Profile
 
-Current release is v2.0.1 from 2019-08-23.
-
-Upcoming release is v2.0.2 from 2021-04-13 - date of effectiveness is open.
+Current release is v2.0.2 from 2021-04-13.
 
 An HTML version can be found at http://docs.peppol.eu/edelivery/as4/specification/
