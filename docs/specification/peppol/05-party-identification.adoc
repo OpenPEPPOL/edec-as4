@@ -10,7 +10,7 @@ _Related to CEF eDelivery AS4 link:{base}PartyIdentification[3.4.1] and link:{ba
 
 | PMode.Initiator.Party
 | One PartyId with value the Subject CNAME of the Peppol Access Point Certificate issued to the Access Point, e.g. APP_1000000100 +
-Fixed value for Party.type footnoteref:[typeIssue, The “type” attribute is not part of the original AS4 Xml Schema Definition (XSD). OASIS has link:https://issues.oasis-open.org/projects/EBXMLMSG/issues/EBXMLMSG-2[acknowledged the issue] and there is a  link:https://www.oasis-open.org/committees/download.php/64179/ebms-header-3_0-200704_with_property_type_attribute.xsd[corrected version of the XSD is available].]: `urn:fdc:peppol.eu:2017:identifiers:ap`
+Fixed value for Party.type footnote:typeIssue[The "type" attribute is not part of the original AS4 Xml Schema Definition (XSD). OASIS has link:https://issues.oasis-open.org/projects/EBXMLMSG/issues/EBXMLMSG-2[acknowledged the issue] and there is a  link:https://www.oasis-open.org/committees/download.php/64179/ebms-header-3_0-200704_with_property_type_attribute.xsd[corrected version of the XSD is available].]: `urn:fdc:peppol.eu:2017:identifiers:ap`
 
 | PMode.Initiator.Role
 | Fixed value:
@@ -19,7 +19,7 @@ Fixed value for Party.type footnoteref:[typeIssue, The “type” attribute is n
 
 | PMode.Responder.Party
 | One PartyId with value the Subject CNAME of the Peppol Access Point Certificate issued to the Access Point, e.g. APP_1000000100 +
-Fixed value for Party.type footnoteref:[typeIssue]: `urn:fdc:peppol.eu:2017:identifiers:ap`
+Fixed value for Party.type footnoteref:typeIssue[]: `urn:fdc:peppol.eu:2017:identifiers:ap`
 
 | PMode.Responder.Role
 | Fixed value:
