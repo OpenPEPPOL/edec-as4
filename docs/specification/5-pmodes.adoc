@@ -2,9 +2,9 @@
 
 _Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 
-The following table lists the PMode paramaters that are profiled in the Peppol AS4 Specification. Parameters not listed, inherit link:{base}P-ModeParameters[the default values of CEF AS4 Specification] and ultimately link:http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/200707/csd03/AS4-profile-csd03.html#__RefHeading__26466_1909778835[the default values of the OASIS AS4 Specification].
+The following table lists the PMode parameters that are profiled in the Peppol AS4 Specification. Parameters not listed, inherit link:{base}P-ModeParameters[the default values of CEF AS4 Specification] and ultimately link:http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/200707/csd03/AS4-profile-csd03.html#__RefHeading__26466_1909778835[the default values of the OASIS AS4 Specification].
 [cols="1,2", options="header"]
-.Changed P-modes for OpenPEPPOL
+.Changed P-modes for OpenPeppol
 |===
 | Processing Mode Parameter
 | Value in the eDelivery Common Profile

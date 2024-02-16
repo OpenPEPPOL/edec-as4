@@ -2,8 +2,8 @@
 
 :leveloffset: +1
 
-include::capability-lookup.adoc[]
+include::1-capability-lookup.adoc[]
 
-include::smp-transport-profile-identifier.adoc[]
+include::2-smp-transport-profile-identifier.adoc[]
 
 :leveloffset: -1

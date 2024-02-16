@@ -2,12 +2,12 @@
 
 _Related to CEF eDelivery AS4 3.2.6 and 3.4.5._
 
-All communication in the Peppol network uses the Peppol PKI. Certificates MUST be verified upon fetching from the SMP. Certificates not issued by OpenPEPPOL MUST NOT be used.
+All communication in the Peppol network uses the Peppol PKI. Certificates MUST be verified upon fetching from the SMP. Certificates not issued by OpenPeppol MUST NOT be used.
 
 Because of the dynamic nature of certificate exchange in the Peppol network, the type "Binary Security Token" MUST be used as the key identifier type.
 
 [cols="1,2", options="header"]
-.P-Modes for OpenPEPPOL
+.P-Modes for OpenPeppol
 |===
 | P-Mode
 | Value

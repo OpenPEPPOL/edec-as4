@@ -7,7 +7,7 @@ NOTE: Because the default MPC is used the `eb3:UserMessage/@mpc` attribute MAY b
 
 
 [cols="1,2", options="header"]
-.Changed P-modes for OpenPEPPOL
+.Changed P-modes for OpenPeppol
 |===
 | Processing Mode Parameter
 | Value in the eDelivery Common Profile

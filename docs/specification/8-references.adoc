@@ -1,0 +1,18 @@
+[bibliography]
+= References
+
+* [[[CEFeDeliveryAS4]]] eDelivery AS4 - 1.14, 2018-10-31. https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery+AS4+-+1.14
+
+* [[[ebMS3CORE]]] OASIS ebXML Messaging Services Version 3.0: Part 1, Core Features, 1 October 2007, OASIS Standard, http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/core/ebms_core-3.0-spec.pdf
+
+* [[[AS4-Profile]]] AS4 Profile of ebMS 3.0 Version 1.0. 23 January 2013, OASIS Standard, http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/os/AS4-profile-v1.0-os.html
+
+* [[[PEPPOL-ID-POL]]] Peppol Transport Infrastructure Policy for use of Identifiers, Version 4.2.0, 19 June 2023, https://docs.peppol.eu/edelivery/policies/PEPPOL-EDN-Policy-for-use-of-identifiers-4.2.0-2023-06-19.pdf
+
+* [[[PEPPOL-SMP]]] Peppol Transport Infrastructure Service Metadata Publishing (SMP), Version 1.2.0, 24 February 2021, https://docs.peppol.eu/edelivery/smp/PEPPOL-EDN-Service-Metadata-Publishing-1.2.0-2021-02-24.pdf
+
+* [[[PEPPOL-SML]]] Peppol Transport Infrastructure Service Metadata Locator (SML), Version 1.2.0, 13 May 2021, https://docs.peppol.eu/edelivery/sml/PEPPOL-EDN-Service-Metadata-Locator-1.2.0-2021-05-13.pdf
+
+* [[[PEPPOL-Envelope]]] OpenPeppol Business Message Envelope (SBDH), Version 2.0.1, 17 August 2023, https://docs.peppol.eu/edelivery/envelope/Peppol-EDN-Business-Message-Envelope-2.0.1-2023-08-17.pdf
+
+* [[[TIA-AP-PROV]]] Peppol Service Provider Agreement, Version v4.0.1, 23 June 2022, https://openpeppol.atlassian.net/wiki/spaces/AF/pages/2889089036/Peppol+Agreements

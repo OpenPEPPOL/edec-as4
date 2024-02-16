@@ -3,7 +3,7 @@
 _Related to CEF eDelivery AS4 link:{base}PartyIdentification[3.4.1] and link:{base}AddressingandPartyIdentification[4.1.2]._
 
 [cols="1,2", options="header"]
-.P-Modes for OpenPEPPOL
+.P-Modes for OpenPeppol
 |===
 | P-Mode
 | Value
@@ -27,4 +27,4 @@ Fixed value for Party.type footnoteref:[typeIssue]: `urn:fdc:peppol.eu:2017:iden
 `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/responder`
 |===
 
-Use of *trackingIdentifier* is not specified by OpenPEPPOL and MUST NOT be used.
+Use of *trackingIdentifier* is not specified by OpenPeppol and MUST NOT be used.

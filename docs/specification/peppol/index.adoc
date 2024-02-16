@@ -1,27 +1,25 @@
-= Implementation in OpenPEPPOL
+= Implementation in OpenPeppol
 
 :leveloffset: +1
 
-include::exchange-patterns.adoc[]
+include::01-exchange-patterns.adoc[]
 
-include::transport-level-security.adoc[]
+include::02-transport-level-security.adoc[]
 
-include::agreement.adoc[]
+include::03-agreement.adoc[]
 
-include::not-serviced.adoc[]
+include::04-not-serviced.adoc[]
 
-include::party-identification.adoc[]
+include::05-party-identification.adoc[]
 
-include::service-action-role.adoc[]
+include::06-service-action-role.adoc[]
 
-include::peppol-pki.adoc[]
+include::07-peppol-pki.adoc[]
 
-include::mpc.adoc[]
+include::08-mpc.adoc[]
 
-include::sbdh.adoc[]
+include::09-sbdh.adoc[]
 
-include::message-packaging.adoc[]
-
-// include::test-service.adoc[]
+include::10-message-packaging.adoc[]
 
 :leveloffset: -1

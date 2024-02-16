@@ -2,6 +2,12 @@
 
 :sectnums!:
 
+== Version 2.0.3 (2024-02-16)
+
+* Renamed "OpenPEPPOL" to "OpenPeppol"
+* Fixed broken links
+* Updated eDEC References
+
 == Version 2.0.2 (2021-04-13)
 
 * Added a statement that "Binary Security Token" must be used
@@ -32,9 +38,9 @@ Release version 2.0.0.
 
 Contributors
 
-* OpenPEPPOL TICC CMB
+* OpenPeppol TICC CMB
 * Erlend Klakegg Bergheim, Difi
-* Jerry Dimitriou, OpenPEPPOL Operating Office
+* Jerry Dimitriou, OpenPeppol Operating Office
 
 
 == Version 2.0.0 RC1
@@ -47,7 +53,7 @@ Changes:
 
 Contributors:
 
-* OpenPEPPOL TICC CMB
+* OpenPeppol TICC CMB
 
 
 == Version 2.0.0 B1
@@ -62,7 +68,7 @@ Major changes from v1.0.0:
 Contributors:
 
 * Erlend Klakegg Bergheim, Difi
-* Jerry Dimitriou, OpenPEPPOL Operating Office
+* Jerry Dimitriou, OpenPeppol Operating Office
 * Bård Langöy, Pagero
 * Even Østvold, Difi
 * Rune Kjørlaug, Difi

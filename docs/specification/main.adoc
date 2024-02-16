@@ -1,6 +1,6 @@
 = Peppol AS4 Profile
-OpenPEPPOL AISBL
-v2.0.2
+OpenPeppol AISBL
+v2.0.3
 :doctype: book
 :icons: font
 :toc: left
@@ -8,22 +8,22 @@ v2.0.2
 :sectanchors:
 :sectnums:
 
-:base: https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+AS4+-+1.14#eDeliveryAS4-1.14-
+:base: https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eDelivery+AS4+-+1.14#eDeliveryAS41.14-BaseSpecifications
 :base-oasis-as4:
 :leveloffset: +1
 
-include::description.adoc[]
+include::1-description.adoc[]
 
-include::changelog.adoc[]
+include::2-changelog.adoc[]
 
-include::base-specification.adoc[]
+include::3-base-specification.adoc[]
 
 include::peppol/index.adoc[]
 
-include::pmodes.adoc[]
+include::5-pmodes.adoc[]
 
 include::non-as4/index.adoc[]
 
-include::conformance.adoc[]
+include::7-conformance.adoc[]
 
-include::references.adoc[]
+include::8-references.adoc[]

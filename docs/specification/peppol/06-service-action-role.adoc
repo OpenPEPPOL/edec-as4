@@ -9,7 +9,7 @@ When sending the business document the Access Point MUST set *PMode[1].BusinessI
 // TODO
 
 [cols="1,2", options="header"]
-.P-Modes for OpenPEPPOL
+.P-Modes for OpenPeppol
 |===
 | P-Mode
 | Value

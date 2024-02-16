@@ -2,13 +2,13 @@
 
 _Related to CEF eDelivery AS4 link:{base}Features[2.1]._
 
-The table below contains a high level overview of changed features in OpenPEPPOL AS4 specification compared to the table of features in <<CEFeDeliveryAS4>>.
+The table below contains a high level overview of changed features in OpenPeppol AS4 specification compared to the table of features in <<CEFeDeliveryAS4>>.
 
 [cols="1,2,2", options="header"]
-.Changed functionality for OpenPEPPOL
+.Changed functionality for OpenPeppol
 |===
 | Functionality
-| OpenPEPPOL AS4
+| OpenPeppol AS4
 | <<CEFeDeliveryAS4>>
 
 | Exchange Patterns

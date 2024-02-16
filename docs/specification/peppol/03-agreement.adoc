@@ -7,7 +7,7 @@ As the message exchange between two Access Points in the Peppol eDelivery Networ
 The `eb3:AgreementRef` element also includes an optional attribute `pmode` which can be used to include the *PMode.ID*. This attribute MUST NOT be used as Access Points may use just one generic P-Mode for receiving messages.
 
 [cols="1,2", options="header"]
-.P-Modes for OpenPEPPOL
+.P-Modes for OpenPeppol
 |===
 | P-Mode
 | Value
