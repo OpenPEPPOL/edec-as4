@@ -5,8 +5,10 @@
 == Version 2.0.3 (2024-02-16)
 
 * Renamed "OpenPEPPOL" to "OpenPeppol"
-* Fixed broken links
+* Fixed broken links inside the document
 * Updated eDEC References
+* Unified table headings
+* Unified table layouts
 
 == Version 2.0.2 (2021-04-13)
 

@@ -8,8 +8,8 @@ v2.0.3
 :sectanchors:
 :sectnums:
 
-:base: https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eDelivery+AS4+-+1.14#eDeliveryAS41.14-BaseSpecifications
-:base-oasis-as4:
+// The anchor prefix is really always constant... 
+:base: https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eDelivery+AS4+-+1.14#eDeliveryAS41.14-
 :leveloffset: +1
 
 include::1-description.adoc[]
@@ -27,3 +27,5 @@ include::non-as4/index.adoc[]
 include::7-conformance.adoc[]
 
 include::8-references.adoc[]
+
+:leveloffset: -1

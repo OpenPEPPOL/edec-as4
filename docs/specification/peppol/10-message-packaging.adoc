@@ -6,4 +6,4 @@ As defined in section 5 of <<ebMS3CORE>> the payloads of an ebMS User Message ma
 
 NOTE: When sending large messages an Access Point MAY use the http chunked transfer encoding to enable more streamlined processing. As specified in section 4.1 of <<RFC7230>> Access Points MUST support this encoding when receiving messages.
 
-The "Content-Disposition" MIME header as described in section link:http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/os/AS4-profile-v1.0-os.html#__RefHeading__26456_1909778835[5.1.9] of <<AS4-Profile>> SHALL NOT be used to exchange the filename of an attached payload. AS4 implementations not supporting removal of the MIME header MUST use `payload.xml` as filename.
+The "Content-Disposition" MIME header as described in section link:$$http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/os/AS4-profile-v1.0-os.html#__RefHeading__26456_1909778835$$[5.1.9] of <<AS4-Profile>> SHALL NOT be used to exchange the filename of an attached payload. AS4 implementations not supporting removal of the MIME header MUST use `payload.xml` as filename.

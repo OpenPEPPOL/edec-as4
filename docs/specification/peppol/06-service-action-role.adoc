@@ -8,11 +8,10 @@ When sending the business document the Access Point MUST set *PMode[1].BusinessI
 
 // TODO
 
-[cols="1,2", options="header"]
+[%autowidth.stretch, options="header"]
 .P-Modes for OpenPeppol
 |===
-| P-Mode
-| Value
+| P-Mode Parameter | Value
 
 | PMode[1].BusinessInfo.Service
 | The Peppol Process Identifier Value of the business document.
@@ -27,7 +26,7 @@ Example: +
 `cenbii-procid-ubl`
 
 | PMode[1].BusinessInfo.Action
-| The Peppol document type identifier of the business document formatted as follows: +
+| The Peppol Document Type Identifier of the business document formatted as follows: +
 `«scheme id»::«document type id value»`
 
 Example: +

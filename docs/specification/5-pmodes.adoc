@@ -2,33 +2,44 @@
 
 _Related to CEF eDelivery AS4 link:{base}P-ModeParameters[3.5]._
 
-The following table lists the PMode parameters that are profiled in the Peppol AS4 Specification. Parameters not listed, inherit link:{base}P-ModeParameters[the default values of CEF AS4 Specification] and ultimately link:http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/200707/csd03/AS4-profile-csd03.html#__RefHeading__26466_1909778835[the default values of the OASIS AS4 Specification].
-[cols="1,2", options="header"]
+The following table lists the PMode parameters that are profiled in the Peppol AS4 Specification.
+Parameters not listed, inherit link:{base}P-ModeParameters[the default values of CEF AS4 Specification] and ultimately link:$$http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/200707/csd03/AS4-profile-csd03.html#__RefHeading__26466_1909778835$$[the default values of the OASIS AS4 Specification].
+
+[%autowidth.stretch, options="header"]
 .Changed P-modes for OpenPeppol
 |===
-| Processing Mode Parameter
-| Value in the eDelivery Common Profile
+| P-Mode Parameter | Value in the eDelivery Common Profile
 
 | PMode.Agreement
-| Fixed value: `urn:fdc:peppol.eu:2017:agreements:tia:ap_provider`
+| Fixed value:
+
+`urn:fdc:peppol.eu:2017:agreements:tia:ap_provider`
 
 | PMode.MEP
-| Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/oneWay`
+| Fixed value:
+
+`+++http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/oneWay+++`
 
 | PMode.MEPBinding
-| Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/push`
+| Fixed value:
+
+`+++http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/push+++`
 
 | PMode.Initiator.Party
-| Please see link:#_party_identification[Party Identification]
+| see link:#_party_identification[Party Identification]
 
 | PMode.Initiator.Party.type
-| Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
+| Fixed value:
+
+`urn:fdc:peppol.eu:2017:identifiers:ap`
 
 | PMode.Responder.Party
 | see link:#_party_identification[Party Identification]
 
 | PMode.Responder.Party.type
-| Fixed value: `urn:fdc:peppol.eu:2017:identifiers:ap`
+| Fixed value:
+
+`urn:fdc:peppol.eu:2017:identifiers:ap`
 
 | PMode[].BusinessInfo.Service
 | see link:#_service_action_and_role[Service, Action and Role]
@@ -40,6 +51,8 @@ The following table lists the PMode parameters that are profiled in the Peppol A
 | see link:#_service_action_and_role[Service, Action and Role]
 
 | PMode[].BusinessInfo.MPC
-| Fixed value: `http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultMPC`
+| Fixed value:
+
+`+++http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultMPC+++`
 |===
 
