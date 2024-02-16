@@ -10,4 +10,4 @@ In the Peppol network the access point MUST be configured according to the follo
 * Port *443 MUST* be used for TLS.
 * Sending access points need only to allow outbound transmissions to port *443*.
 
-TLS MUST use a valid certificate compliant with the Peppol Policy for transport security.
+TLS MUST use a valid certificate compliant with the Peppol Policy for Transport Security (see <<PEPPOL-TS-POL>>).

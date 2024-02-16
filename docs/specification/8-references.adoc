@@ -15,6 +15,8 @@
 
 * [[[PEPPOL-Envelope]]] OpenPeppol Business Message Envelope (SBDH), Version 2.0.1, 17 August 2023, https://docs.peppol.eu/edelivery/envelope/Peppol-EDN-Business-Message-Envelope-2.0.1-2023-08-17.pdf
 
+* [[[PEPPOL-TS-POL]]] Peppol Policy for Transport Security, Version 1.1.0, 20 April 2020, https://docs.peppol.eu/edelivery/policies/PEPPOL-EDN-Policy-for-Transport-Security-1.1.0-2020-04-20.pdf
+
 * [[[TIA-AP-PROV]]] Peppol Service Provider Agreement, Version v4.0.1, 23 June 2022, https://openpeppol.atlassian.net/wiki/spaces/AF/pages/2889089036/Peppol+Agreements
 
 * [[[RFC2119]]] Key words for use in RFCs to Indicate Requirement Levels, March 1997, https://datatracker.ietf.org/doc/html/rfc2119
