@@ -2,13 +2,14 @@
 
 :sectnums!:
 
-== Version 2.0.3 (2024-02-16)
+== Version 2.0.3 (2024-04-22)
 
 * Renamed "OpenPEPPOL" to "OpenPeppol"
 * Fixed broken links inside the document and in the references
 * Updated versions of eDEC References
 * Added missing references to RFC 2119, RFC 7230 and Peppol Policy for Transport Security
 * Unified table headings and layouts
+* Added a clarification on the exact usage of Binary Security Token `ValueType` attribute
 
 == Version 2.0.2 (2021-04-13)
 
